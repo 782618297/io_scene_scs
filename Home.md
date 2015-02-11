@@ -3,7 +3,7 @@ Welcome to Blender Tools wiki pages!
 
 Here you will find complete documentation about SCS Blender Tools. Whole documentation is divided to more chapters (pages) for quicker and better orientation.
 
-> NOTE: We strongly advise that you read at least this pages: Installation, Terminology and Basics.
+> NOTE: We strongly advise that you read at least this pages: [[Installation]], [[Terminology and Basics]] and [[Global Settings]].
 
 ### Content
 
