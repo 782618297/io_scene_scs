@@ -19,7 +19,7 @@ By the term “Model” we simply mean any Blender object of **MESH** type.
 
 “Locators” we call any Blender object of **EMPTY** type, which is set as Locator in SCS Blender Tools.
 
-TODO: INSERT IMAGE
+[[images/SCS_Tools_Locators_-_initial_03.png]]
 
 There are three types of Locators:
 
