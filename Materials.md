@@ -1,6 +1,6 @@
 SCS Blender Tools uses its own Material settings, so every Material in Blender contains a palette called “SCS Materials”. It is essential to use settings here exclusively to set up any available Material properties. If you'll be changing the Material's settings in Blender's standard palettes, the appearance of the Material will change in 3D View, but the SCS material settings will not change and exported material may look very different when viewed in SCS Game Engine.
 
-`NOTE: Unfortunately, it is not possible to see in current “SCS Blender Tools” implementation the same looking shaders in Blender as it will appear later in SCS Game Engine. This is because Blender uses different shader models then SCS Game Engine and the implementation is just trying to get the visuals as close as possible using current Blender shaders.`
+> NOTE: Unfortunately, it is not possible to see in current “SCS Blender Tools” implementation the same looking shaders in Blender as it will appear later in SCS Game Engine. This is because Blender uses different shader models then SCS Game Engine and the implementation is just trying to get the visuals as close as possible using current Blender shaders.
 
 The settings for SCS Material can be created from one of two types:
 
@@ -40,7 +40,7 @@ Each texture features:
 
   This property specifies which UV layer will be used for this texture. For some textures you may need to specify more then one UV layer, depends on which Shader Preset is used.
   
-  `NOTE: if more UV layers are needed only first one is used in Blender 3D viewport but all of them are used on export.`
+  > NOTE: if more UV layers are needed only first one is used in Blender 3D viewport but all of them are used on export.`
 
 * **Export TOBJ**
 
