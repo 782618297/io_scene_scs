@@ -53,3 +53,23 @@ Additional operators for switching visibility of objects within the SCS Game Obj
 * _**Invert Visibility**_ - inverts visibility of all objects.
 * _**View All**_ - shows all objects.
 * _**Isolate**_ - show all objects within SCS Game Object of active object and hide all other objects in scene.
+
+
+### Display Methods
+
+
+**Glass Objects**
+
+* _**Wires / Textured**_ - two operators for quick setting of the drawing type for all Glass objects in the scene.
+
+
+_**Shadow Casters**_
+
+* _**Wires / Textured**_ - two operators for quick setting of the drawing type for all Shadow caster objects in the scene.
+
+
+**Collision Locators**
+
+* _**All Wires / No Wires**_ - operators to quickly turn ON or OFF all the wires in all Collision Locators in the scene.
+
+* _**All Faces / No Faces**_ - operators to quickly turn ON or OFF all the faces in all Collision Locators in the scene.
