@@ -4,7 +4,8 @@
  * [[Terminology and Basics]]
 *  Custom Palettes and Usage
  * [[Global Settings]]
- * [[Models]]
+ * [[Part System]]
+ * [[Variant System]]
  * [[Locators]]
  * [[Root Objects]]
  * [[Materials]]
