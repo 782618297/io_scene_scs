@@ -59,7 +59,7 @@ Global path for all exported files. If this field is filled with a valid path, a
 Please note, that this setting can be overridden on SCS Game Object level by Custom Export Path setting on any SCS Root Object (see chapter SCS Root Objects).
 If the Blender work wasn't saved yet and this field is empty (as well as Custom Export Path setting on the SCS Root Object), then the Error message is displayed and no export can take place.
 
-`NOTE: Sign, Semaphore, Traffic Rules and Mat Substance libraries are not yet fully supported!`
+`NOTE: Sign, Semaphore, Traffic Rules and Mat Substance libraries are not fully supported yet!`
 
 
 ## Display Settings
