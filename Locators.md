@@ -9,7 +9,7 @@ Now while the object is active go to the Object Properties tab in Properties win
 
 Now you can choose from three types of Locators in the Locator Type drop-down menu: Prefab, Model and Collision.
 
-`NOTE: Prefab and Collision locators are not fully supported yet!`
+> NOTE: Prefab and Collision locators are not fully supported yet!
 
 
 ### Model Locators
@@ -27,7 +27,7 @@ This property here is the same as Blender Object's name and will be used by game
 
 This property can be set according to records in “Hookup Library” (see the chapter “Path Settings” in [[Global Settings]]).
 
-`NOTE: Model Locators can also use "Preview Model" feature (see the chapter “Preview Models”).`
+> NOTE: Model Locators can also use "Preview Model" feature (see the chapter “Preview Models”).
 
 
 ### Preview Models
