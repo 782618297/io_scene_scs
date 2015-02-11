@@ -1,3 +1,7 @@
+Global Settings hold common settings too whole SCS Blender Tools addon and are defined per-machine not per-blender file like any other properties in Blender.
+
+`NOTE: Altered items are written to the settings file (config.txt) immediately, so the next time you start Blender all the settings will be preserved, even if application experience crash.`
+
 “Global Settings” sub-palette can be find within “SCS Tools” palette in “Scene” settings of the “Properties” window.
 
 [[images/SCS_Tools_Properties_-_icons_01.png]]
@@ -10,6 +14,8 @@ There are two sub-palettes: “Path Settings” and “Display Settings”.
 ## Path Settings
 
 Before you start to use the tools, it is necessary to specify where to access certain data sources, which are used for filling up of some library menus. First of all, you’ll need to set the main folder that contains your project. Do it to the “SCS Project Path” entry. Other routes usually proceed from that location, and therefore can be stored in the form of a relative path. However that doesn’t need to be the rule every time and therefore the mechanism for path selection in the SCS Tools will always decide the appropriate form for the path. If paths are set properly is clearly seen from color of its background – if any entry is faulty, the background is in red color and needs to be set to the valid location or valid library file.
+
+[[images/SCS_Tools_Globals_Path.png]]
 
 
 **SCS Project Base Path** _[folder, always absolute path]_
@@ -54,3 +60,95 @@ Please note, that this setting can be overridden on SCS Game Object level by Cus
 If the Blender work wasn't saved yet and this field is empty (as well as Custom Export Path setting on the SCS Root Object), then the Error message is displayed and no export can take place.
 
 `NOTE: Sign, Semaphore, Traffic Rules and Mat Substance libraries are not yet fully supported!`
+
+
+## Display Settings
+
+The “Display Settings” sub-palette brings together visual settings for all the special elements that are part of SCS Blender Tools. You can find here a visual settings for Locators, their Curves, Preview Models and other specific elements, which detail explanation follows in the text below.
+
+[[images/SCS_Tools_Globals_Display.png]]
+
+
+**Drawing Mode**
+
+Drawing mode for custom elements (i.e. Locators and Connections). It switches between Normal and X-Ray mode. Normal mode use normal depth testing drawing so all the custom elements are drawn within the scene the same way as the other objects, while the X-Ray mode use X-Ray drawing making all the custom elements visible on top of the other objects.
+
+
+**Display Locators**
+
+Turns on and off displaying of custom representation of Locators. This can be useful especially when tunning Navigation curves.
+
+
+**Locator Size**
+
+Drawing size of Locators' custom representation.
+
+
+**Locator Empty Object Size**
+
+Drawing size ratio of selectable Empty objects in Locators. Alter it if you experience difficulties with selecting of Locators.
+
+
+**Prefab Locator Color**
+
+Custom color for Prefab Locators.
+
+
+**Model Locator Color**
+
+Custom color for Model Locators.
+
+
+**Collider Locator Wire Color**
+
+Custom color for Collider Locators' wire frames.
+
+
+**Collider Locator Face Color**
+
+Custom color for Collider Locators' faces.
+
+
+**Display Connections**
+
+Turns on and off displaying of Locators' connections - Curves and Lines.
+
+
+**Optimized Connections Draw**
+
+Draw connections only when data are updated. Switching this off might give you FPS (frames per second), especially on heavy Prefab scenes.
+
+
+**Curve Segments**
+
+Number of segments for Navigation Curves. It can improve update speed of 3D View.
+
+
+**Navigation Curve Base Color**
+
+Custom color for Navigation Curves.
+
+
+**Map Line Base Color**
+
+Custom color for Map Lines.
+
+
+**Trigger Line Base Color**
+
+Custom color for Trigger Lines.
+
+
+**Display Text Info**
+
+Switches displaying of different additional information texts for Locators directly in 3D View. This is very useful when you work on Prefab models. For example, you can display only the Locator Names, or Boundary Lanes or Nodes.
+
+
+**Info Text Color**
+
+Custom color for Info Texts.
+
+
+**Show Preview Models**
+
+Turns on and off displaying of Preview models for Locators.
