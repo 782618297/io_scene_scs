@@ -11,4 +11,5 @@ TODO: INSERT IMAGE
 
 ### 2. Addon Activation
 Now it is necessary to activate the "SCS Blender Tools" Addon. This can be easily done in the "User Preferences" in the "Addons" section. In the upper left part of the window click on "Testing" button and in the main window, look for the "Import-Export: SCS Tools". You can use search feature to locate the item. Now activate the checkbox on the right side of SCS Tools entry. If the item is missing in your list, press F8 to reload Addons.
-TODO: INSERT IMAGE
+
+[[images/Blender_enable_SCS_Tools_Addon.png]]
