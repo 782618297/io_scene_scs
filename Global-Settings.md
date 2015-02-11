@@ -1,4 +1,4 @@
-Global Settings hold common settings too whole SCS Blender Tools addon and are defined per-machine not per-blender file like any other properties in Blender.
+Global Settings hold common settings to whole SCS Blender Tools addon and are defined per-machine not per-blender file like any other properties in Blender.
 
 `NOTE: Altered items are written to the settings file (config.txt) immediately, so the next time you start Blender all the settings will be preserved, even if application experience crash.`
 
