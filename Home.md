@@ -12,7 +12,8 @@ Here you will find complete documentation about SCS Blender Tools. Whole documen
  * [[Terminology and Basics]]
 *  Custom Palettes and Usage
  * [[Global Settings]]
- * [[Models]]
+ * [[Part System]]
+ * [[Variant System]]
  * [[Locators]]
  * [[Root Objects]]
  * [[Materials]]
