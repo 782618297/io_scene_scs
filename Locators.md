@@ -9,4 +9,4 @@ Now while the object is active go to the Object Properties tab in Properties win
 
 Now you can choose from three types of Locators in the Locator Type drop-down menu: Prefab, Model and Collision.
 
-`NOTE: Prefab and Collision locators may not work in current version of SCS Blender Tools!`
+`NOTE: Prefab and Collision locators are not fully supported yet!`
