@@ -1,9 +1,9 @@
 ### Wiki Content:
 * [[Home]]
-* [[Download]]
 * Intro
  * [[Installation]]
  * [[Terminology and Basics]]
+* [[Download]]
 *  Custom Panels and Usage
  * [[Global Settings]]
  * [[Part System]]
