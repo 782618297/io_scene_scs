@@ -10,7 +10,8 @@ Here you will find complete documentation about SCS Blender Tools. Whole documen
 * Intro
  * [[Installation]]
  * [[Terminology and Basics]]
-*  Custom Panels and Usage
+* [[Download]]
+* Custom Panels and Usage
  * [[Global Settings]]
  * [[Part System]]
  * [[Variant System]]
