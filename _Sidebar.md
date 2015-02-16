@@ -9,5 +9,5 @@
  * [[Locators]]
  * [[Root Objects]]
  * [[Materials]]
- * [[SCS Tools - Shelf]]
+ * [[SCS Tools in Shelf]]
  * [[Export Panel]]
