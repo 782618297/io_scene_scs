@@ -2,7 +2,7 @@
 * Intro
  * [[Installation]]
  * [[Terminology and Basics]]
-*  Custom Palettes and Usage
+*  Custom Panels and Usage
  * [[Global Settings]]
  * [[Part System]]
  * [[Variant System]]
