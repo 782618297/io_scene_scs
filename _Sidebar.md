@@ -1,4 +1,5 @@
 ### Wiki Content:
+* [[Home]]
 * Intro
  * [[Installation]]
  * [[Terminology and Basics]]
