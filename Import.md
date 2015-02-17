@@ -4,7 +4,7 @@ You can import models and other elements which were exported to _SCS mid-format_
 
 The import functionality is in _Blender's_ import menu as “_SCS Formats (.pim)_”. Within the file requester you can find “_SCS Import_” panel.
 
-## Import Panel
+## Import Options
 
 [[images/SCS_Tools_Import_02.png]]
 
