@@ -13,6 +13,6 @@
  * [[Materials]]
  * [[SCS Tools in Shelf]]
  * [[Export Panel]]
-* Menu Actions
+* Custom Menu Entries
  * [[Import]]
  * [[Export]]
