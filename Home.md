@@ -23,4 +23,3 @@ Here you will find complete documentation about SCS Blender Tools. Whole documen
 * Custom Menu Entries
  * [[Import]]
  * [[Export]]
- * [[Import]]
