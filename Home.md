@@ -20,4 +20,7 @@ Here you will find complete documentation about SCS Blender Tools. Whole documen
  * [[Materials]]
  * [[SCS Tools in Shelf]]
  * [[Export Panel]]
+* Custom Menu Entries
+ * [[Import]]
+ * [[Export]]
  * [[Import]]
