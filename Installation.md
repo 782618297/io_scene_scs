@@ -5,7 +5,7 @@ All the files needed for tools installation are contained in a single folder nam
 
 You can use one the following installation possibilities:
 
-1. **LOCAL INSTALLATION:** Place the folder "addon/io_scs_tools" to your installation of Blender to a location "<Blender_installation>/<version_number>/scripts/addons/". The Addon will be used only by this particular installation of Blender.
+1. **LOCAL INSTALLATION:** Place the folder "addon/io_scs_tools" to your installation of Blender to a location "\<Blender_installation>/\<version_number>/scripts/addons/". The Addon will be used only by this particular installation of Blender.
 2. **GLOBAL INSTALLATION:** Place the folder "addon/io_scs_tools" in your profile to the location "\<user_profile>/blender/\<version_number>/scripts/addons/". Addon will be used by any Blender installation of specified version.
 3. **INSTALLATION TO THE USER DIRECTORY:** In "User Preferences" within "File" section is the "Scripts" item where you can set the path to any Addon location. This way, for example, you can use any Addon directly from data repository and your tools will always be of the current version in all of your Blender installations. It is necessary, that the Addon folder was placed inside a folder named "addons_contrib" and Blender needs to be directed to its parent folder. Therefore the resulting path to the folder Addons should look like "/\<folder>/addons_contrib/io_scs_tools", but the path under Scripts will be only "/\<folder>".
 [[images/Blender_custom_location_for_Scripts.png]]
