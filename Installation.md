@@ -15,3 +15,5 @@ You can use one the following installation possibilities:
 Now it is necessary to activate the "SCS Blender Tools" Addon. This can be easily done in the "User Preferences" in the "Addons" section. In the upper left part of the window click on "Testing" button and in the main window, look for the "Import-Export: SCS Tools". You can use search feature to locate the item. Now activate the checkbox on the right side of SCS Tools entry. If the item is missing in your list, press F8 to reload Addons.
 
 [[images/Blender_enable_SCS_Tools_Addon.png]]
+
+> NOTE: In order to actually use content in SCS games you also need to install and use conversion tool for specific game. More info about conversion tools: [[Conversion Tools]]
