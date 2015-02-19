@@ -3,13 +3,14 @@ Welcome to Blender Tools wiki pages!
 
 Here you will find complete documentation about SCS Blender Tools. The whole documentation is divided to more chapters (pages) for quicker and better orientation.
 
-> NOTE: We strongly advise that you read at least these pages: [[Installation]], [[Terminology and Basics]] and [[Global Settings]].
+> NOTE: We strongly advise that you read at least these pages: [[Installation]], [[Terminology and Basics]], [[Conversion Tools]] and [[Global Settings]].
 
 ### Content
 
 * Intro
  * [[Installation]]
  * [[Terminology and Basics]]
+ * [[Conversion Tools]]
 * [[Download]]
 * Custom Panels and Usage
  * [[Global Settings]]
