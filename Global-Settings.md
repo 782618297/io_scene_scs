@@ -1,26 +1,28 @@
 Global Settings hold common settings to whole SCS Blender Tools addon and are defined per-machine not per-blender file like any other properties in Blender.
 
-`NOTE: Altered items are written to the settings file (config.txt) immediately, so the next time you start Blender all the settings will be preserved, even if application experience crash.`
+> NOTE: Altered items are written to the settings file (config.txt) immediately, so the next time you start Blender all the settings will be preserved, even if application experience crash. If you want to reset settings to default navigate to installed Blender Tools in file browser, delete file "io_scs_tools/config.txt" and restart Blender.
 
-“Global Settings” sub-palette can be find within “SCS Tools” palette in “Scene” settings of the “Properties” window.
+***Global Settings*** sub-palette can be find within ***SCS Tools*** palette in ***Scene*** settings of the Properties window.
 
 [[images/SCS_Tools_Properties_-_icons_01.png]]
 
-There are two sub-palettes: “Path Settings” and “Display Settings”.
+There are two sub-palettes: ***Path Settings*** and ***Display Settings***.
 
 [[images/SCS_Tools_Globals_01.png]]
 
 
 ## Path Settings
 
-Before you start to use the tools, it is necessary to specify where to access certain data sources, which are used for filling up of some library menus. First of all, you’ll need to set the main folder that contains your project. Do it to the “SCS Project Path” entry. Other routes usually proceed from that location, and therefore can be stored in the form of a relative path. However that doesn’t need to be the rule every time and therefore the mechanism for path selection in the SCS Tools will always decide the appropriate form for the path. If paths are set properly is clearly seen from color of its background – if any entry is faulty, the background is in red color and needs to be set to the valid location or valid library file.
+Before you start to use the tools, it is necessary to specify where to access data sources, which are used for filling up of some library menus and addressing textures. First of all, you’ll need to set the main folder that contains your project. Do it to the “SCS Project Path” entry. Other routes usually proceed from that location, and therefore can be stored in the form of a relative path. However that doesn’t need to be the rule every time and therefore the mechanism for path selection in the SCS Tools will always decide the appropriate form for the path. If paths are set properly is clearly seen from color of its background – if any entry is faulty, the background is in red color and needs to be set to the valid location or valid library file.
 
 [[images/SCS_Tools_Globals_Path.png]]
 
 
 **SCS Project Base Path** _[folder, always absolute path]_
 
-SCS project's “base” directory. All the paths of following libraries usually continues from this location, so they can be in relative form. However if you prefer another location, you can use it and the path form will be automatically chosen.
+***This is most important path, which leads to “base” directory of any SCS game. Base directory always has to have specific structure, because all of texture and definition file addressing is made relative from that path.*** So all of the paths of following libraries should continue from this location and should be in relative form. However if you prefer another location for those libraries, you can use it and the path form will be automatically chosen.
+
+> NOTE: You should prefer another location for libraries only if you are using any custom library file.
 
 
 **Sign Library** _[“*.sii” file, absolute or relative path to 'SCS Project Base Path']_
