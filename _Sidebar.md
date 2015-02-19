@@ -3,6 +3,7 @@
 * Intro
  * [[Installation]]
  * [[Terminology and Basics]]
+ * [[Conversion Tools]]
 * [[Download]]
 *  Custom Panels and Usage
  * [[Global Settings]]
