@@ -5,6 +5,16 @@ Here you will find complete documentation about SCS Blender Tools. The whole doc
 
 > NOTE: We strongly advise that you read at least these pages: [[Installation]], [[Terminology and Basics]], [[Conversion Tools]] and [[Global Settings]].
 
+
+### Mod Creation Pipeline
+
+For creation of mods you will need:
+
+1. SCS Blender Tools - for content creation
+2. SCS Conversion Tools - for converting content from 1. step to game compatible files 
+3. File archiver and browser - for packing and copying files from  2. step to "mod" folder
+
+
 ### Content
 
 * Intro
