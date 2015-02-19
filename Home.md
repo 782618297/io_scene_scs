@@ -1,5 +1,5 @@
-# ![](https://github.com/SCSSoftware/BlenderTools/blob/master/addon/io_scs_tools/ui/icons/.icon_scs_bt_logo.png?raw=true) Blender Tools Wiki
-Welcome to Blender Tools wiki pages!
+# ![](https://github.com/SCSSoftware/BlenderTools/blob/master/addon/io_scs_tools/ui/icons/.icon_scs_bt_logo.png?raw=true) SCS Blender Tools Wiki
+Welcome to SCS Blender Tools wiki pages!
 
 Here you will find complete documentation about SCS Blender Tools. The whole documentation is divided to more chapters (pages) for quicker and better orientation.
 
@@ -10,9 +10,9 @@ Here you will find complete documentation about SCS Blender Tools. The whole doc
 
 For creation of mods you will need:
 
-1. **[SCS Blender Tools](https://github.com/SCSSoftware/BlenderTools/wiki/Download)** - for content creation
-2. **[SCS Conversion Tools](https://github.com/SCSSoftware/BlenderTools/wiki/Conversion-Tools)** - for converting content from 1. step to game compatible files 
-3. **File archiver and browser** - for packing and copying files from 2. step to "mod" folder
+1. **[SCS Blender Tools](https://github.com/SCSSoftware/BlenderTools/wiki/Download)** - for content creation.
+2. **[Asset Conversion Tools](https://github.com/SCSSoftware/BlenderTools/wiki/Conversion-Tools)** - for converting created content with SCS Blender Tools to the game compatible formats.
+3. **File archiver and browser** - for packing and copying files from created with Asset Conversion Tools to "mod" folder.
 
 
 ### Content
