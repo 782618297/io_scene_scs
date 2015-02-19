@@ -34,7 +34,9 @@ This section provides an interface for specifying texture images for different s
 Each texture features:
 * **Texture**
   
-  Setting this property will open file browser where you will be able to select image for this texture. After selecting, the image will be automatically applied to material.
+  Setting this property will open file browser where you will be able to select image (only *.tga image file format is officially supported) for this texture. After selecting, the image will be automatically applied to material.
+
+  > NOTE: if you won't use image from SCS project directory defined in [[Global Settings#path-settings]] then texture data may not be exported properly!
 
 * **Mapping**
 
