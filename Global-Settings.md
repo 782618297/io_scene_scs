@@ -20,7 +20,7 @@ Before you start to use the tools, it is necessary to specify where to access da
 
 **SCS Project Base Path** _[folder, always absolute path]_
 
-***This is most important path, which leads to “base” directory of any SCS game. Base directory always has to have specific structure, because all of texture and definition file addressing is made relative from that path.*** So all of the paths of following libraries should continue from this location and should be in relative form. However if you prefer another location for those libraries, you can use it and the path form will be automatically chosen.
+***This is most important path, which leads to “base” directory of any SCS game. Base directory always has to have specific structure, because of relative texture and definition file addressing.*** So all of the paths of following libraries should continue from this location and should be in relative form. However if you prefer another location for those libraries, you can use it and the path form will be automatically chosen.
 
 > NOTE: You should prefer another location for libraries only if you are using any custom library file.
 
