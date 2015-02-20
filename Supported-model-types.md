@@ -2,4 +2,5 @@ As Blender Tools are still in development below is the list of currently support
 
 1. Static geometries:
    * Objects for map
-   * Upgrade pieces for trucks including wheels
+   * Upgrade pieces for trucks 
+   * Wheels for vehicles
