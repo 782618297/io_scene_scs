@@ -19,4 +19,4 @@
  * [[Export]]
 * Currently supported content
  * [[Supported model types]]
- * [[Supported materials]]
+ * [[Supported shaders]]
