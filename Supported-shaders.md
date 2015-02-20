@@ -1,6 +1,6 @@
 As Blender Tools are still in development below is the list of currently supported shaders.
 
-1. **"building.add.env.day"** - use this material if you want your building windows to reflect at day-time and be lit at night. It effectively switches two materials depending on the time of the day. During the day is uses 'eut2.dif.spec.add.env' material with texture for reflections and at night switches to 'eut2.dif.lum.spec' in order for windows to light at the night. The texture must have alpha channel on places where it should have reflections and light at night.
+1. **"building.add.env.day"** - use this material if you want your building windows to reflect at day-time and be lit at night. It effectively switches two materials depending on the time of the day. During the day is uses "eut2.dif.spec.add.env" material with texture for reflections and at night switches to "eut2.dif.lum.spec" in order for windows to light at the night. The texture must have alpha channel on places where it should have reflections and light at night.
 2. **"dif.a"** - one of the most basic shader with diffuse light featuring one texture. The areas on geometries where texture has alpha value 0 will be transparent. Example usage: grills, railings and ladders on far buildings.
 3. **"dif.spec"** - basic shader with diffuse and specular light featuring one texture. Alpha of the texture represents intensity of specular light.
  The most used material without reflections.
