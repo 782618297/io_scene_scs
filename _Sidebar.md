@@ -17,3 +17,6 @@
 * Custom Menu Entries
  * [[Import]]
  * [[Export]]
+* Currently supported content
+ * [[Supported model types]]
+ * [[Supported materials]]
