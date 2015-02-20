@@ -17,8 +17,8 @@ Here you will find complete documentation about SCS Blender Tools. The whole doc
    2. Then export geometries in OBJ format or any format supported by Blender
    3. Import geometries in Blender
    4. Setup your model with SCS Blender Tools 
-4. [[Supported model types]] by SCS Blender Tools
-5. [[Supported shaders]] by SCS Blender Tools
+4. Currently [[Supported model types]] by SCS Blender Tools
+5. Currently [[Supported shaders]] by SCS Blender Tools
 
 
 ***
