@@ -18,7 +18,7 @@ Here you will find complete documentation about SCS Blender Tools. The whole doc
    3. Import geometries in Blender
    4. Setup your model with SCS Blender Tools 
 4. [[Supported model types]] by SCS Blender Tools
-5. [[Supported materials]] by SCS Blender Tools
+5. [[Supported shaders]] by SCS Blender Tools
 
 
 ***
