@@ -7,6 +7,6 @@ As Blender Tools are still in development below is the list of currently support
 4. **"dif.spec.a"** - same as "dif.spec" with extra feature of making transparent areas where texture has alpha with value 0.
 5. **"dif.spec.add.env"** - same as "dif.spec" with extra texture featuring reflection used for vehicles.
 6. **"dif.spec.add.env.nofresnel"** - same as dif.spec.add.env, but it doesn't use fresnel computation, therefore is slightly cheaper to compute.
-7. **"dif.spec.weight"** - same as "dif.spec" with addition of multiplying vertex color value with specular light. It's mostly used for roads and asphalts, due distinct feel of specularity and diffuse properties of such surfaces.
-8. **"fakeshadow"** - geometry with this material is used to outline contour of the vehicle from which casting of shadow volume begins. Example are wheels where geometry with this material cuts out the area of shadow volume inside given contour.
+7. **"dif.spec.weight"** - same as "dif.spec" with modified specular light. It's mostly used for roads and asphalts, due distinct feel of specularity and diffuse properties of such surfaces.
+8. **"fakeshadow"** - geometry with this material is used to outline contour of the vehicle from which casting of shadow volume begins. Due wheels vertical motion this material is required to be present in the wheel scene as well. It must outline the contour of the whole wheel.
 9. **"shadowonly"** - used on geometry for casting sun shadows.
