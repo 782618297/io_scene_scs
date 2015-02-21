@@ -63,6 +63,7 @@ Global path for all exported files. If this field is filled with a valid path, a
 Please note, that this setting can be overridden on SCS Game Object level by Custom Export Path setting on any SCS Root Object (see chapter SCS Root Objects).
 If the Blender work wasn't saved yet and this field is empty (as well as Custom Export Path setting on the SCS Root Object), then the Error message is displayed and no export can take place.
 
+> NOTE: wherever content tries to be saved if the ending path won't be inside SCS Project Base Path you will get an error message that export path is not inside SCS Project Base Path. In this case you have to correct export path to be somewhere inside SCS Project Base Path or save blend file into that place.
 > NOTE: Sign, Semaphore, Traffic Rules and Mat Substance libraries are not fully supported yet!
 
 
