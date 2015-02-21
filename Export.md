@@ -1,5 +1,7 @@
 Beside exporting models from [[Export Panel]] you can export models from menu entry **SCS Formats (*.pim)**. It features the same behavior as export panel with exception that all files will be exported in selected directory.
 
+> NOTE: even if you can select different directory it still have to be inside current SCS Project Base Path otherwise it would be impossible to reconstruct relative texture paths.
+
 [[images/SCS_Tools_Export_02.png]]
 
 ### Export Options
