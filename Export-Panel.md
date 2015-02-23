@@ -25,23 +25,12 @@ Exports all properly set Game Objects in all scenes in current Blender file.
 
 ## Other export options
 
-**Default Export Path** - here you can specify relative filepath inside "SCS Project Base Path" where your Game Objects will be exported. 
-
-1. If default export path is empty, Blender Tools will try to export Game Object beside saved Blender file.
-2. If default export path is set, Blender Tools will combine "SCS Project Base Path" with given default export path to export files there.
-   
-If Blender Tools can't find any solution for cases above, files are exported directly into "SCS Project Base Path".
-
-> NOTE: if input field will be marked red, then path is invalid and extra button for more info will be shown
-
-> NOTE: export path can be overwritten on Root Object by specifying "Custom Export Filepath"
-
+**Default Export Path** - here you can globally specify the filepath where your Game Objects will be exported.
+> NOTE: You can override this global filepath for every individual Game Object using “Custom Export Filepath” in each Root Object.
 
 **Scale** - the resulting scale of all exported models and elements. This setting is saved and thus remembered in every Blend file.
 
-
 **Apply Modifiers** - apply all modifiers before export.
-
 
 **Apply Only 'Edge Split'** - apply only 'Edge Split' modifier before export to get sharp edges. All the other modifiers will be ignored.
 
