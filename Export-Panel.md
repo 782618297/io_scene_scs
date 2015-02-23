@@ -25,7 +25,7 @@ Exports all properly set Game Objects in all scenes in current Blender file.
 
 ## Other export options
 
-**Default Export Path** - here you can globally specify the filepath where your Game Objects will be exported.
+**Global Export Path** - here you can globally specify the filepath where your Game Objects will be exported.
 > NOTE: You can override this global filepath for every individual Game Object using “Custom Export Filepath” in each Root Object.
 
 **Scale** - the resulting scale of all exported models and elements. This setting is saved and thus remembered in every Blend file.
