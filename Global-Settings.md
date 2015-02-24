@@ -15,7 +15,7 @@ There are two sub-palettes: ***Path Settings*** and ***Display Settings***.
 
 Before you start to use the tools, it is necessary to specify where to access data sources, which are used for filling up of some library menus and addressing textures. First of all, you’ll need to set the main folder that contains your project. Do it to the “SCS Project Path” entry. Other routes usually proceed from that location, and therefore can be stored in the form of a relative path. However that doesn’t need to be the rule every time and therefore the mechanism for path selection in the SCS Tools will always decide the appropriate form for the path. If paths are set properly is clearly seen from color of its background – if any entry is faulty, the background is in red color and needs to be set to the valid location or valid library file.
 
-[[images/SCS_Tools_Globals_Path.png]]
+[[images/SCS_Tools_Globals_Path_01.png]]
 
 
 **SCS Project Base Path** _[folder, always absolute path]_
@@ -54,16 +54,7 @@ Library of Material Substances, which defines physical behavior of the material.
 
 **Shader Presets Library** _[“*.txt” file, absolute file path]_
 
-Shader Presets library filepath. This library has been created specially for SCS Blender Tools and thus it is located in its installation folder. The correct path should be set automatically. Details on Shader Presets you can find in “Materials” chapter.
-
-
-**Global Export Path** _[folder, absolute path or relative path to saved Blender file]_
-
-Global path for all exported files. If this field is filled with a valid path, all the exported files will be written to this location, otherwise they will be written beside to saved Blender file.
-Please note, that this setting can be overridden on SCS Game Object level by Custom Export Path setting on any SCS Root Object (see chapter SCS Root Objects).
-If the Blender work wasn't saved yet and this field is empty (as well as Custom Export Path setting on the SCS Root Object), then the Error message is displayed and no export can take place.
-
-> NOTE: wherever content tries to be saved, if the ending path won't be inside SCS Project Base Path you will get an error message that export path is not inside SCS Project Base Path. In this case you have to correct export path to be somewhere inside SCS Project Base Path or save blend file into that place.
+Shader Presets library filepath. This library has been created specially for SCS Blender Tools and thus it is located in its installation folder. The correct path should be set automatically. Details on Shader Presets you can find in “Materials” chapter
 
 > NOTE: Sign, Semaphore, Traffic Rules and Mat Substance libraries are not fully supported yet!
 
