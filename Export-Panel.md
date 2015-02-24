@@ -1,6 +1,6 @@
 Export panel is located within Scene tab and offers a quick way for content export to the game.
 
-[[images/SCS_Tools_Export_01.png]]
+[[images/SCS_Tools_Export_00.png]]
 
 ## Export Modes
 
