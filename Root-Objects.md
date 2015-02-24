@@ -22,4 +22,13 @@ Allow or disable the use of “Custom Export File Path” for this SCS Game Obje
 
 **Custom Export File Path**
 
-Allows to set a custom file path to export to for this SCS Game Object.
+Allows to set a custom file path for export of this SCS Game Object (overwrites "Default Export Path").
+
+Specified path must be relative filepath inside "SCS Project Base Path" where this Game Object will be exported.
+
+1. If custom export path is empty, Blender Tools will try to export Game Object beside saved Blender file.
+2. If custom export path is set, Blender Tools will combine "SCS Project Base Path" with given custom export path to export files there.
+
+If Blender Tools can't find any solution for cases above, files are exported directly into "SCS Project Base Path".
+
+> NOTE: if input field will be marked red, then path is invalid and extra button for more info will be shown
