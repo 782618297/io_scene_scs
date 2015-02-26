@@ -10,10 +10,10 @@ Here you will find complete documentation about SCS Blender Tools. The whole doc
 
 ### Before you start
 
-1. This tools provide new pipeline (as developers do it)
-2. There are new formats. Why? "Because they are meant to be used for all of SCS games. Moreover if game changes it's internal formats, you won't have to reexport your models."
+1. These tools provide a new pipeline (as developers do it).
+2. There are new formats. Why? "Because they are meant to be used for all of SCS games. Moreover if a game changes it's internal formats, you won't have to reexport your models."
 3. Old models can be reused partially. How? 
-   1. Use any program or addon you are used to import the existing models. 
+   1. Use any program or addon you are used to to import the existing models. 
    2. Then export geometries in OBJ format or any format supported by Blender
    3. Import geometries in Blender
    4. Setup your model with SCS Blender Tools 
@@ -26,11 +26,11 @@ Here you will find complete documentation about SCS Blender Tools. The whole doc
 
 ### Mod creation pipeline
 
-For creation of mods you will need:
+For the creation of mods you will need:
 
 1. **[SCS Blender Tools](https://github.com/SCSSoftware/BlenderTools/wiki/Download)** - for content creation.
 2. **[Asset Conversion Tools](https://github.com/SCSSoftware/BlenderTools/wiki/Conversion-Tools)** - for converting created content with SCS Blender Tools to the game compatible formats.
-3. **File archiver and browser** - for packing and copying files from created with Asset Conversion Tools to "mod" folder.
+3. **File archiver and browser** - for packing and copying files created with Asset Conversion Tools to the "mod" folder.
 
 
 ### Content
