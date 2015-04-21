@@ -10,6 +10,8 @@
  * [[Part System]]
  * [[Variant System]]
  * [[Locators]]
+  * [[Model Locators]]
+  * [[Collision Locators]]
  * [[Root Objects]]
  * [[Materials]]
  * [[SCS Tools in Shelf]]
