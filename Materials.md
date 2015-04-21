@@ -4,17 +4,17 @@ SCS Blender Tools uses its own Material settings, so every Material in Blender c
 
 The settings for SCS Material can be created from one of two types:
 
-* **Imported Shader**
-
-  [[images/SCS_Material_Imported_Shader.png]]
-
-  When you import any existing game model and some of the material effects cannot be found in existing Shader Presets, Imported Shader is created. Attributes cannot be edited, but it will still export correctly as it was in original file. Though textures and their mappings can be changed.
-
 * **Shader Preset**
 
-  [[images/SCS_Material_Shader_Preset.png]]
+  [[images/SCS_Material_Specials_-_Shader_Preset.png]]
 
   The “SCS Materials” palette features the list of Shader Presets, where you can choose from materials with its own predefined values and change some of them to your liking. Shader Presets can be found as a collapsible list, which is loaded from the Shader Presets Library file (see the chapter “Path Settings” in [[Global Settings]]).
+
+* **Imported Shader**
+
+  [[images/SCS_Material_Specials_-_Imported_Shader.png]]
+
+  When you import any existing game model and some of the material effects cannot be found in existing Shader Presets, Imported Shader is created. Attributes cannot be edited, but it will still export correctly as it was in original file. Though textures and their mappings can be changed.
 
 
 **Substance**
