@@ -16,3 +16,5 @@ Most of SCS material settings can be "written through" which means that the curr
 Write through button ( [[images/SCS_Material_Specials_-_WT_Btn.png]] ) is founded before material setting value as marked in the image below.
 
 [[images/SCS_Material_Specials_-_WT.png]]
+
+> NOTE: When you don't define any looks in the model or you have defined only one write through button won't have any effect on material.
