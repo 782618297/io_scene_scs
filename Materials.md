@@ -34,7 +34,7 @@ The settings for SCS Material can be created from one of two types:
 
 ### Properties and usage
 
-Properties in material are shader type dependent. So each type of shader may have different attributes and textures. Additionally there is "WT" button for some of the properties which can be written through all of the looks, for more information see the section [[Look System#Write-through]]
+Properties in material are shader type dependent. So each type of shader may have different attributes and textures. Additionally there is "WT" button for some of the properties which can be written through all of the looks, for more information see the section [[Look System#write-through]]
 
 **Substance**
 
