@@ -9,6 +9,7 @@
  * [[Global Settings]]
  * [[Part System]]
  * [[Variant System]]
+ * [[Look System]]
  * [[Locators]]
     * [[Model Locators]]
     * [[Collision Locators]]
