@@ -11,7 +11,7 @@ To change material attributes or textures for some look, you have to select it i
 
 ### Write Trough
 
-Most of SCS material settings can be "written trough" which means that the current value is written to all looks. This way you can for example easily change texture which you want to use in all looks without selecting each look and searching for the texture over and over again.
+Most of SCS material settings can be "written trough" which means that the current value of setting is written to all looks. This way you can for example easily change texture which you want to use in all looks without selecting each look and searching for the texture over and over again.
 
 Write trough button is founded before material setting value marked as "WT" as in the image below.
 
