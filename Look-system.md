@@ -17,4 +17,4 @@ Write through button ( [[images/SCS_Material_Specials_-_WT_Btn.png]] ) is founde
 
 [[images/SCS_Material_Specials_-_WT.png]]
 
-> NOTE: When you don't define any looks in the model or you have defined only one write through button won't have any effect on material.
+> NOTE: When you don't define any looks in the model or you have defined only one, write through button won't have any effect on material.
