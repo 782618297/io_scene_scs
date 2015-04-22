@@ -1,6 +1,19 @@
 SCS Blender Tools uses its own Material settings, so every Material in Blender contains a palette called “SCS Materials”. It is essential to use settings here exclusively to set up any available Material properties. If you'll be changing the Material's settings in Blender's standard palettes, the appearance of the Material will change in 3D View, but the SCS material settings will not change and exported material may look very different when viewed in SCS Game Engine.
 
-> NOTE: Unfortunately, it is not possible to see in current “SCS Blender Tools” implementation the same looking shaders in Blender as it will appear later in SCS Game Engine. This is because Blender uses different shader models then SCS Game Engine and the implementation is just trying to get the visuals as close as possible using current Blender shaders.
+### Lamps and 3D View setup
+
+To get closest result to the one in SCS Game Engine you should use one "Sun" lamp with settings shown in the image below. 
+
+[[images/SCS_Material_Specials_-_Lamp_Setup.png]]
+
+Additionally you have to switch shading in the 3D view properties to GLSL and tick "Backface Culling" to see models properly.
+
+[[images/SCS_Material_Specials_-_3D_View_Setup.png]]
+
+> NOTE: Although materials are now implemented with nodes system there is no guarantee that model will look the same in SCS Game Engine.
+
+
+### SCS Material Settings
 
 The settings for SCS Material can be created from one of two types:
 
