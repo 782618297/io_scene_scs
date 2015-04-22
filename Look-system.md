@@ -2,4 +2,4 @@ Looks in SCS games are used to define same model with different textures or mate
 
 So each SCS Game Object inside Blender file has it's own definitions for looks. You can create, delete and edit look names in "SCS Looks" under "SCS Objects Specials" panel when SCS Root Object is active or "SCS Material Specials" panel when mesh object is active.
 
-[[images/SCS_Object_Specials_-_SCS_Looks.png]]
+[[images/SCS_Tools_Object_Specials_-_SCS_Looks.png]]
