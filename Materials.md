@@ -13,7 +13,7 @@ Additionally you have to switch shading in the 3D view properties to GLSL and ti
 > NOTE: Although materials are now implemented with nodes system there is no guarantee that model will look the same in SCS Game Engine.
 
 
-### SCS Material Settings
+### Shader Types
 
 The settings for SCS Material can be created from one of two types:
 
@@ -27,12 +27,18 @@ The settings for SCS Material can be created from one of two types:
 
   [[images/SCS_Material_Specials_-_Imported_Shader.png]]
 
-  When you import any existing game model and some of the material effects cannot be found in existing Shader Presets, Imported Shader is created. Attributes cannot be edited, but it will still export correctly as it was in original file. Though textures and their mappings can be changed.
+  When you import any existing game model and some of the materials cannot be found in existing Shader Presets, Imported Shader is created. Attributes cannot be edited, but it will still export correctly as it was in original file. Though textures and their mappings can be changed for visual preview.
+  
+  Additionally there is "Mappings" field inside "Textures" for this type of shader. "tex_coord_X" entries specify which UV layer will be exported for this alias.
 
+
+### Properties and usage
+
+Properties in material are shader type dependent. So each type of shader may have different attributes and textures. Additionally there is "WT" button for some of the properties which can be written trough all of the looks, for more information see the section [[Look System]]
 
 **Substance**
 
-Item from list of physical materials, which is loaded from Material Substance Library file (see the chapter “Path Settings” in [[Global Settings]]). These can for example set up the physical type of the road surface.
+Substance property is item from list of physical materials, which is loaded from Material Substance Library file (see the chapter “Path Settings” in [[Global Settings]]). These can for example set up the physical type of the road surface.
 
 
 **Material Attributes**
@@ -49,21 +55,20 @@ Each texture features:
   
   Setting this property will open file browser where you will be able to select image (only *.tga image file format is officially supported) for this texture. After selecting, the image will be automatically applied to material.
 
-  > NOTE: if you won't use image from SCS project directory defined in [[Global Settings#path-settings]] then texture data may not be exported properly!
+  > NOTE: using image out of SCS project directory (see [[Global Settings#path-settings]]) and it's subdirectories may cause errors and warnings on export!
+
+  Each texture also features extra row of controls for TOBJ file and it's settings. TOBJ files are pointers to texture images and are by default created upon export if they don't exist yet. However create button will appear if TOBJ file doesn't exist yet and pressing it will create TOBJ file for this texture with default settings. In case this texture already has TOBJ file there will be only reload button with which you can load currently saved settings of this TOBJ. When reload button is marked red this indicates that current settings are outdated and you should press this button to reload it. When changing any value in settings list TOBJ file will be rewritten with updated values right away.
+
+ _**Settings**_ of TOBJ file are:
+    * _**U Repeat**_ - repeat texture in U direction.
+    * _**V Repeat**_ - repeat texture in V direction.
+    * _**TS Normal**_  - tangent space normal for the texture.
+    * _**No MIP Maps**_ - don't use MIP Maps for the texture.
+    * _**No Compress**_ - don't use compression on texture.
+
 
 * **Mapping**
 
   This property specifies which UV layer will be used for this texture. For some textures you may need to specify more then one UV layer, depends on which Shader Preset is used.
   
   > NOTE: if more UV layers are needed only first one is used in Blender 3D viewport but all of them are used on export.`
-
-* **Export TOBJ**
-
-  TOBJ files are pointers to texture images and are by default exported if they don't exist yet. If you manually tick _**Export TOBJ**_, then texture object file will be always exported with selected settings.
-
-  _**Settings**_ are in fact set of boolean options:
-    * _**U Repeat**_ - repeat texture in U direction.
-    * _**V Repeat**_ - repeat texture in V direction.
-    * _**TS Normal**_  - tangent space normal for the texture.
-    * _**No MIP Maps**_ - don't use MIP Maps for the texture.
-    * _**No Compress**_ - don't use compression on texture.
