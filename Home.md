@@ -40,11 +40,17 @@ For the creation of mods you will need:
  * [[Terminology and Basics]]
  * [[Conversion Tools]]
 * [[Download]]
-* Custom Panels and Usage
+*  Custom Panels and Usage
  * [[Global Settings]]
  * [[Part System]]
  * [[Variant System]]
+ * [[Look System]]
+ * [[Lamp System]]
+    * [[Lamp Tools]]
  * [[Locators]]
+    * [[Model Locators]]
+    * [[Collision Locators]]
+    * [[Prefab Locators]]
  * [[Root Objects]]
  * [[Materials]]
  * [[SCS Tools in Shelf]]
@@ -52,3 +58,6 @@ For the creation of mods you will need:
 * Custom Menu Entries
  * [[Import]]
  * [[Export]]
+* Currently supported content
+ * [[Supported model types]]
+ * [[Supported shaders]]
