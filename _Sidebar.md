@@ -10,6 +10,8 @@
  * [[Part System]]
  * [[Variant System]]
  * [[Look System]]
+ * [[Lamp System]]
+    * [[Lamp Tools]]
  * [[Locators]]
     * [[Model Locators]]
     * [[Collision Locators]]
