@@ -3,7 +3,7 @@ Blender Tools implements "Lamp Switcher" and "Lamp UV Tool" for previewing and p
 
 ## Lamp switcher
 
-Lamp switcher is preview tool for switching ON and OFF different type of lights in all currently created materials. Lamp switcher can be found in 3D view under SCS Tools panel and consist of three groups:
+Lamp switcher is preview tool for switching ON and OFF different type of lights in all currently created materials. When switching ON any type of the light you will see brighten surfaces on the meshes using lamp material. If you don't see any change in 3D view there is either problem in UV mapping of the meshes or the mask texture is not properly created. Lamp switcher can be found in 3D view under SCS Tools panel and consist of three groups:
 * **Vehicle** - used for switching vehicle lights
 * **Auxiliary**  - used for switching vehicle auxiliary lights
 * **Traffic Lights** - used for switching traffic lights
