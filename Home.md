@@ -50,7 +50,6 @@ For the creation of mods you will need:
  * [[Locators]]
     * [[Model Locators]]
     * [[Collision Locators]]
-    * [[Prefab Locators]]
  * [[Root Objects]]
  * [[Materials]]
  * [[SCS Tools in Shelf]]
