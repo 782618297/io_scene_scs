@@ -15,7 +15,6 @@
  * [[Locators]]
     * [[Model Locators]]
     * [[Collision Locators]]
-    * [[Prefab Locators]]
  * [[Root Objects]]
  * [[Materials]]
  * [[SCS Tools in Shelf]]
