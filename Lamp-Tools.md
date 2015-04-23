@@ -22,6 +22,6 @@ Lamp UV Tool is helper tool for positioning UV mappings of selected faces. Tool 
 You can use this tool only in "Edit Mode" of mesh objects. By pressing any of the buttons tool will automatically reposition selected faces UV mappings to proper texture tile depending on selected vehicle side or auxiliary lamp color or traffic light color:
 * **Vehicle** - UV mappings are positioned depending on vehicle side.
 * **Auxiliary** - UV mappings are positioned depending on the lit color of auxiliary.
-* **Traffic Lights** - similarly as in auxiliary UV mappings are positioned depending on the color of traffic light.
+* **Traffic Lights** - UV mappings are positioned depending on the color of traffic light.
 
 [[images/SCS_Tools_Shelf_-_Lamp_UV_Tool.png]]
