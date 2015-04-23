@@ -20,14 +20,14 @@ Second requirement for vehicle lights to work properly is separate UV layer for 
 
 ## Auxiliary lights
 
-Auxiliary lights on vehicles can also have separate light mask but it uses only two channels from light mask texture:
+Auxiliary lights on vehicles can also have separate second mask texture but they use only two channels from light mask texture:
 
 * R - dimmed beam
 * G - full beam
 * B - not used and must be zero (black)
 * A - not used and must be zero (black)
 
-There is also possible to use two different colors for auxiliary lights with offsetting UV mappings for light mask texture. Tile offset here is done on the right side of the texture:
+There is also possible to use two different colors for auxiliary lights with offsetting UV mappings for second mask texture. Tile offset here is also done on the right side of the texture:
 
 1. original texture - white color
 2. first texture tile - orange color
@@ -35,7 +35,7 @@ There is also possible to use two different colors for auxiliary lights with off
 
 ## Traffic lights
 
-Traffic lights don't use extra lamp mask texture as they are using alpha channel of base texture for proper lit of traffic lights. But they still use offset on UV mappings to properly lit up different color in traffic light. Tile offset here is done on right up side of the texture in the following order:
+Traffic lights don't use extra second mask texture as they are using alpha channel of base texture for proper lit of traffic lights. But they still use tile offset on UV mappings to properly lit up different color in traffic light. Tile offset here is done on right up side of the texture in the following order:
 
 1. first texture tile - red color of traffic light
 2. second texture tile - yellow color of traffic light
@@ -61,10 +61,10 @@ Lamp switcher is preview tool for switching ON and OFF different type of lights 
 
 ### Lamp UV Tool
 
-Lamp UV Tool is helper tool for positioning UV mappings of selected faces on active UV layer. You can use the tool only in "Edit Mode" of mesh objects. Tool will automaticly reposition selected faces to proper texture tile depending on what lamp type was selected. Similary as Lamp Switcher UV tool has three groups:
+Lamp UV Tool is helper tool for positioning UV mappings of selected faces on active UV layer. This tool will help you easily position uv mappings on the proper tile of texture depending on vehicle side or auxiliary lamp color or traffic light color. You can use this tool only in "Edit Mode" of mesh objects. Tool will automatically reposition selected faces to proper texture tile depending on what lamp type was selected. Similarly as Lamp Switcher UV tool has three groups:
 * **Vehicle** - UV mappings are positioned depending on vehicle side.
 * **Auxiliary** - UV mappings are positioned depending on the lit color of auxiliary.
-* **Traffic Lights** - similarly as in auxiliary UV mappings are positioned depending on the type of traffic light.
+* **Traffic Lights** - similarly as in auxiliary UV mappings are positioned depending on the color of traffic light.
 
 [[images/SCS_Tools_Shelf_-_Lamp_UV_Tool.png]]
 
