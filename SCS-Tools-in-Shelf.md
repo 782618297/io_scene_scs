@@ -73,3 +73,8 @@ _**Shadow Casters**_
 * _**All Wires / No Wires**_ - operators to quickly turn ON or OFF all the wires in all Collision Locators in the scene.
 
 * _**All Faces / No Faces**_ - operators to quickly turn ON or OFF all the faces in all Collision Locators in the scene.
+
+
+### Lamp Switcher and Lamp UV Tool
+
+Tools shelf also include lamp tools which are described in [[Lamp Tools]] section.
