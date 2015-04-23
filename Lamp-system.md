@@ -27,7 +27,7 @@ Blender Tools implements "Lamp Switcher" and "Lamp UV Tool" for previewing and p
 Lamp switcher is preview tool for switching ON and OFF different type of lights in all currently created materials. Lamp switcher can be found in 3D view under SCS Tools panel and consist of three groups:
 * **Vehicle** - used for switching vehicle lights
 * **Auxiliary**  - used for switching vehicle auxiliary lights
-* **Traffic** - used for switching traffic lights
+* **Traffic Lights** - used for switching traffic lights
 
 > NOTE: To see changes in 3D view you should use GLSL shading mode and use at least one lamp material on at least one object.
   
@@ -36,8 +36,11 @@ Lamp switcher is preview tool for switching ON and OFF different type of lights 
 
 ### Lamp UV Tool
 
-Lamp UV Tool is helper tool for positioning UV mappings of selected faces on active UV layer. Tool is need only when dealing with vehicle lights and is visible only in "Edit Mode" of mesh objects.
+Lamp UV Tool is helper tool for positioning UV mappings of selected faces on active UV layer. You can use the tool only in "Edit Mode" of mesh objects. Tool will automaticly reposition selected faces to proper texture tile depending on what lamp type was selected. Similary as Lamp Switcher UV tool has three groups:
+* **Vehicle** - UV mappings are positioned depending on vehicle side.
+* **Auxiliary** - UV mappings are positioned depending on the lit color of auxiliary.
+* **Traffic Lights** - similarly as in auxiliary UV mappings are positioned depending on the type of traffic light.
 
 [[images/SCS_Tools_Shelf_-_Lamp_UV_Tool.png]]
 
-When hitting any of the buttons tool will take currently selected faces and set offset for UV mappings on active UV layer according to selected side of vehicle.
+When hitting any of the buttons tool will take currently selected faces and set offset for UV mappings on active UV layer according to property and type of light.
