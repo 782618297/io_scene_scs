@@ -1,5 +1,7 @@
 Lamp system uses "lamp" material effect to visualize extra lit surfaces by second mask texture or by alpha channel of base texture. This system is used on vehicle lights, vehicle auxiliary lights and traffic lights.
 
+For easy usage of lamp system Blender Tools has included [[Lamp Tools]] which will help you with UV mappings tiling and previewing of lit surfaces directly in Blender 3D view
+
 ## Vehicle lights
 
 Vehicle lights uses second mask texture where each channel from RGBA color space defines mask for particular type of the light:
