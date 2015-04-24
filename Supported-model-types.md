@@ -4,3 +4,7 @@ As Blender Tools are still in development below is the list of currently support
    * Buildings and other objects for map (prefabs are not included)
    * Upgrade pieces for trucks 
    * Wheels for vehicles
+
+2. Vehicles ( Blender Tools version 0.5 and later ):
+   * Trailers
+   * AI Cars
