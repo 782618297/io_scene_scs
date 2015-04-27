@@ -18,6 +18,7 @@
  * [[Root Objects]]
  * [[Materials]]
  * [[SCS Tools in Shelf]]
+    * [[Wrap Tools]]
  * [[Export Panel]]
 * Custom Menu Entries
  * [[Import]]
