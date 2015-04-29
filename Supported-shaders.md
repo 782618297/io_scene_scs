@@ -7,14 +7,14 @@ As Blender Tools are still in development below is the list of currently support
  The most used material without reflections.
 5. **"dif.spec.a"** - same as "dif.spec" with extra feature of making transparent areas where texture has alpha with value 0.
 6. **"dif.spec.over"** - same as "dif.spec" but in this case alpha map also represent transparency blending of material, where alpha with value 0 means completely transparent and alpha with value 255 means non transparent.
-7. **"dif.spec.add.env"** - same as "dif.spec" with extra texture featuring reflection used for vehicles.
-8. **"dif.spec.add.env.nofresnel"** - same as dif.spec.add.env, but it doesn't use fresnel computation, therefore is slightly cheaper to compute.
-9. **"dif.spec.weight"** - same as "dif.spec" with modified specular light. It's mostly used for roads and asphalts, due distinct feel of specularity and diffuse properties of such surfaces.
-10. **"dif.spec.mult.dif.spec"** - same as "dif.spec" with extra texture which color and alpha is multiplied with base texture. Example usage in Euro Truck Simulator 2 is trailer where company texture is multiplied with base texture of the trailer.
-11. **"dif.spec.mult.dif.spec.tsnmapuv"** - same as "dif.spec.mult.dif.spec" with extra texture defining normal maps using it's own UV layer.
-12. **"dif.spec.over.dif.opac"** - same as "dif.spec" with extra texture which color is mixed with base texture color by factor of alpha from mask texture.
-13. **"dif.spec.tsnmap"** - same as "dif.spec" with extra texture defining normal maps. Both textures are using same UV layer.
-14. **"dif.spec.tsnmapuv"** - same as "dif.spec" with extra texture defining normal maps using it's own UV layer.
+7. **"dif.spec.tsnmap"** - same as "dif.spec" with extra texture defining normal maps. Both textures are using same UV layer.
+8. **"dif.spec.tsnmapuv"** - same as "dif.spec" with extra texture defining normal maps using it's own UV layer.
+9. **"dif.spec.add.env"** - same as "dif.spec" with extra texture featuring reflection used for vehicles.
+10. **"dif.spec.add.env.nofresnel"** - same as dif.spec.add.env, but it doesn't use fresnel computation, therefore is slightly cheaper to compute.
+11. **"dif.spec.weight"** - same as "dif.spec" with modified specular light. It's mostly used for roads and asphalts, due distinct feel of specularity and diffuse properties of such surfaces.
+12. **"dif.spec.mult.dif.spec"** - same as "dif.spec" with extra texture which color and alpha is multiplied with base texture. Example usage in Euro Truck Simulator 2 is trailer where company texture is multiplied with base texture of the trailer.
+13. **"dif.spec.mult.dif.spec.tsnmapuv"** - same as "dif.spec.mult.dif.spec" with extra texture defining normal maps using it's own UV layer.
+14. **"dif.spec.over.dif.opac"** - same as "dif.spec" with extra texture which color is mixed with base texture color by factor of alpha from mask texture.
 15. **"fakeshadow"** - geometry with this material is used to outline contour of the vehicle from which casting of shadow volume begins. Due wheels vertical motion this material is required to be present in the wheel scene as well. It must outline the contour of the whole wheel.
 16. **"glass - vehicle"** - glass material for vehicles which uses base texture alpha for specular map.
 17. **"lamp"** - lamp material used for vehicle lights, auxiliary lights and traffic lights. With the second mask texture this material defines masking areas for situations when particular light is turned on ( more about lamps in [[Lamp system]]).
