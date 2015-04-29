@@ -10,13 +10,16 @@ As Blender Tools are still in development below is the list of currently support
 7. **"dif.spec.tsnmap"** - same as "dif.spec" with extra texture defining normal maps. Both textures are using same UV layer.
 8. **"dif.spec.tsnmapuv"** - same as "dif.spec" with extra texture defining normal maps using it's own UV layer.
 9. **"dif.spec.add.env"** - same as "dif.spec" with extra texture featuring reflection used for vehicles.
-10. **"dif.spec.add.env.nofresnel"** - same as dif.spec.add.env, but it doesn't use fresnel computation, therefore is slightly cheaper to compute.
-11. **"dif.spec.weight"** - same as "dif.spec" with modified specular light. It's mostly used for roads and asphalts, due distinct feel of specularity and diffuse properties of such surfaces.
-12. **"dif.spec.mult.dif.spec"** - same as "dif.spec" with extra texture which color and alpha is multiplied with base texture. Example usage in Euro Truck Simulator 2 is trailer where company texture is multiplied with base texture of the trailer.
-13. **"dif.spec.mult.dif.spec.tsnmapuv"** - same as "dif.spec.mult.dif.spec" with extra texture defining normal maps using it's own UV layer.
-14. **"dif.spec.over.dif.opac"** - same as "dif.spec" with extra texture which color is mixed with base texture color by factor of alpha from mask texture.
-15. **"fakeshadow"** - geometry with this material is used to outline contour of the vehicle from which casting of shadow volume begins. Due wheels vertical motion this material is required to be present in the wheel scene as well. It must outline the contour of the whole wheel.
-16. **"glass - vehicle"** - glass material for vehicles which uses base texture alpha for specular map.
-17. **"lamp"** - lamp material used for vehicle lights, auxiliary lights and traffic lights. With the second mask texture this material defines masking areas for situations when particular light is turned on ( more about lamps in [[Lamp system]]).
-18. **"lamp.add.env"** - same as "lamp" with extra texture featuring reflection used for vehicles.
-19. **"shadowonly"** - used on geometry for casting sun shadows.
+10. **"dif.spec.add.env.paint"** - same as "dif.spec.add.env" with usage of extra color defined in definition files. All white areas on the base texture will be masked with extra color while in game. This shader is either used for AI cars or truck parts which should be painted with base truck color.
+11. **"dif.spec.add.env.tsnmap"** - same as "dif.spec.add.env" with extra texture defining normal maps. Both textures are using same UV layer.
+12. **"dif.spec.add.env.tsnmapuv"** - same as "dif.spec.add.env" with extra texture defining normal maps using it's own UV layer.
+13. **"dif.spec.add.env.nofresnel"** - same as dif.spec.add.env, but it doesn't use fresnel computation, therefore is slightly cheaper to compute.
+14. **"dif.spec.mult.dif.spec"** - same as "dif.spec" with extra texture which color and alpha is multiplied with base texture. Example usage in Euro Truck Simulator 2 is trailer where company texture is multiplied with base texture of the trailer.
+15. **"dif.spec.mult.dif.spec.tsnmapuv"** - same as "dif.spec.mult.dif.spec" with extra texture defining normal maps using it's own UV layer.
+16. **"dif.spec.over.dif.opac"** - same as "dif.spec" with extra texture which color is mixed with base texture color by factor of alpha from mask texture.
+17. **"dif.spec.weight"** - same as "dif.spec" with modified specular light. It's mostly used for roads and asphalts, due distinct feel of specularity and diffuse properties of such surfaces.
+18. **"fakeshadow"** - geometry with this material is used to outline contour of the vehicle from which casting of shadow volume begins. Due wheels vertical motion this material is required to be present in the wheel scene as well. It must outline the contour of the whole wheel.
+19. **"glass - vehicle"** - glass material for vehicles which uses base texture alpha for specular map.
+20. **"lamp"** - lamp material used for vehicle lights, auxiliary lights and traffic lights. With the second mask texture this material defines masking areas for situations when particular light is turned on ( more about lamps in [[Lamp system]]).
+21. **"lamp.add.env"** - same as "lamp" with extra texture featuring reflection used for vehicles.
+22. **"shadowonly"** - used on geometry for casting sun shadows.
