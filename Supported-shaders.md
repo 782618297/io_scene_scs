@@ -1,4 +1,4 @@
-As library of shaders in Blender Tools is quite big shaders were divided into more sections describing each type of shader and it's extensions:
+As library of shaders in Blender Tools is already quite big, shaders were divided into more sections describing each type of shader and it's extensions:
 
 1. [[Shader type: building.add.env.day]]
 2. [[Shader type: dif]]
