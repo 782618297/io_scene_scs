@@ -36,4 +36,4 @@
    * [[Shader type: fakeshadow]]
    * [[Shader type: glass]]
    * [[Shader type: lamp]]
-11. [[Shader type: shadowonly]]
+   * [[Shader type: shadowonly]]
