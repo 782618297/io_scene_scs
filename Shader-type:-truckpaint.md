@@ -5,14 +5,14 @@ Truckpaint shader as the name suggests is the shader for truck color paint. The 
 
 ### Extensions
 
-1. ""*truckpaint.altuv*"" - 
-2. ""*truckpaint.airbrush*"" - 
-3. ""*truckpaint.airbrush.altuv*"" - 
-4. ""*truckpaint.tsnmap*"" - 
-5. ""*truckpaint.tsnmap.altuv*"" - 
-6. ""*truckpaint.tsnmap.airbrush*"" - 
-7. ""*truckpaint.tsnmap.airbrush.altuv*"" - 
-8. ""*truckpaint.tsnmapuv*"" - 
-9. ""*truckpaint.tsnmapuv.altuv*"" - 
-10. ""*truckpaint.tsnmapuv.airbrush*"" - 
-11. ""*truckpaint.tsnmapuv.airbrush.altuv*"" - 
+1. **"truckpaint.altuv"** - 
+2. **"truckpaint.airbrush"** - 
+3. **"truckpaint.airbrush.altuv"** - 
+4. **"truckpaint.tsnmap"** - 
+5. **"truckpaint.tsnmap.altuv"** - 
+6. **"truckpaint.tsnmap.airbrush"** - 
+7. **"truckpaint.tsnmap.airbrush.altuv"** - 
+8. **"truckpaint.tsnmapuv"** - 
+9. **"truckpaint.tsnmapuv.altuv"** - 
+10. **"truckpaint.tsnmapuv.airbrush"** - 
+11. **"truckpaint.tsnmapuv.airbrush.altuv"** - 
