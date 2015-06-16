@@ -5,7 +5,9 @@ Animations used in SCS games are driven by skeletons and keyframes animations de
 2. **Static loop animations** used by so called "mover" objects. Movers can be placed all around the game world with the help of map editor. Examples for mover objects are: windmills, pedestrians, animals etc. To create your own mover you should create new "def/world/mover.<id_of_your_mod>.sii" file and define mover in there by the template from original "def/world/mover.sii" file.
 > NOTE: Special type of movers named "walkers" can also use forward movement in their animation which can be animated as movement of skeleton object on Y axis.
 
-Regardless on the usage of the SCS Animation, creation pipeline within Blender Tools is the same for both above types. To create SCS Animation you will have to use standard Blender procedure of armature creation and pose rigging and then set it up in SCS Animations panel. It is also important to know, that only: location, rotation and scale manipulation of bones will be exported during SCS Animation export.
+Regardless on the usage of the SCS Animation, creation pipeline within Blender Tools is the same for both above types. To create SCS Animation you will have to use standard Blender procedure of [armature creation](http://www.blender.org/manual/rigging/armatures.html#armatures), [vertices skinning](http://www.blender.org/manual/rigging/skinning/obdata.html#vertex-groups) and [bones animating](http://www.blender.org/manual/animation/introduction.html). Afterwards you will also have to set up SCS Animation in SCS Animations panel. 
+
+Very important to know is that only: location, rotation and scale manipulation of bones will be exported during SCS Animation export, anything else will be ignored even if it will be animated and played inside Blender.
 
 
 # SCS Animations Panel
