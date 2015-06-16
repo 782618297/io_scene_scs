@@ -19,7 +19,9 @@ To export created skeleton pose animation into the game you will also have to us
 
 ### Custom Export Path
 
-First property of animations panel that you can set is custom export path which you shall use if you would like to store your animation files somewhere else than rest of the exported files. This path may be useful when you are creating sequence of animations for walkers, as all of your walkers can use the same skeleton and animations and thus you may export them in different directory.
+First property of animations panel that you can set is custom export path which you shall use if you would like to store your animation files somewhere else than rest of the exported files. 
+
+This path may be useful when you are creating sequence of animations for walkers, as all of your walkers can use the same skeleton and animations and thus you may export them in different directory.
 
 If custom path remains disabled all of the SCS Animations will be exported beside the rest of the exported files.
 
@@ -51,11 +53,11 @@ Properties of SCS Animation:
 
 To preview currently selected SCS Animation you can use Animation Player, which is only wrapped interface for already existing settings in Blender Timeline editor.
 
-> NOTE: You can also preview currently selected SCS Animation by hitting keyboard shortcut for starting animation playback: Alt+A.
+> NOTE: You can also preview currently selected SCS Animation by hitting keyboard shortcut for starting animation playback: ***Alt+A***.
 
-First row consist from Start, End and Current frame of animation playback. While second row gives you possibility to use playback controls and set FPS for animation playback.
+First row consist from **Start**, **End** and **Current** frame of animation playback. While second row gives you possibility to use playback controls and set FPS for animation playback.
 
-> NOTE: Changing FPS manually will invalidate currently selected SCS Animation preview as FPS is calculated by set Start, End and Length of SCS Animation.
+> NOTE: Changing FPS manually will invalidate currently selected SCS Animation preview as FPS is calculated by set ***Start***, ***End*** and ***Length*** of SCS Animation.
 
 
 # SCS Skeleton Panel
