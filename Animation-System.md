@@ -19,22 +19,32 @@ To export created skeleton pose animation into the game you will also have to us
 
 ### Custom Export Path
 
-First property for SCS Animation that you can set is custom export path which you shall use if you would like to store your animation files somewhere else than rest of the exported files. This path may be useful when you are creating sequence of animations for walkers, as all of your walkers can use the same skeleton and animations and thus you may export them in different directory.
+First property of animations panel that you can set is custom export path which you shall use if you would like to store your animation files somewhere else than rest of the exported files. This path may be useful when you are creating sequence of animations for walkers, as all of your walkers can use the same skeleton and animations and thus you may export them in different directory.
 
 If custom path remains disabled all of the SCS Animations will be exported beside the rest of the exported files.
 
 
 ### SCS Animations List
 
-Under custom export filepath you will find SCS Animations list where all animations used on current SCS Game Object are listed. For creation or deletion of SCS Animations use [[+]] and [[-]] buttons on the side of the animations list. Furthermore animations can be imported with [[importbutton]]  button, which will place you into file browser to select SCS Animation for importing.
+Next you will find SCS Animations list where all animations used on current SCS Game Object are listed. For creation or deletion of SCS Animations use [[+]] and [[-]] buttons on the side of the animations list. Furthermore animations can be imported with [[importbutton]]  button, which will place you into file browser to select SCS Animation for importing.
 
 Each SCS Animation entry features: 
-* name of SCS Animation which will be also used as the name of exported animation (PIA) file, 
+* name of SCS Animation which will be also used as the name of exported animation file (PIA), 
 * export operator [[exportbutton]] for exporting only animation used in that line,
 * export inclusion property, which will decline export of animation used in that line when it's unticked and you are exporting whole SCS Game Object.
 
 
 ### Active Animation Settings
+
+This panel area is actual place where you link Blender action (animation) to currently selected SCS Animation in list and set various properties for it.
+
+Properties of SCS Animation:
+* **Start** - frame in action which will be used as a start of SCS Animation,
+* **End** - frame in action which will be used as an end of SCS Animation,
+* **Length** - animation duration in seconds,
+* **Increase Animation Step [[increasebutton]]** - stretches action by factor 2 and increases **Export Step** by one to compensate scaling. This gives you better control on sub keyframes and distribution of transformations over time,
+* **Decrease Animation Step [[decreasebutton]]** - shrinks action by factor 2 and decreases **Export Step** by one to compensate scaling. This removes each second keyframe which decreases control over the whole animation,
+* **Export Step** - number of frames to step in Blender action for each iteration on export.
 
 
 ### Animation Player
