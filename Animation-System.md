@@ -16,11 +16,29 @@ To export created skeleton pose animation into the game you will also have to us
 
 > NOTE: When seeing "No 'SCS Root Object'!" message instead of animations list make sure to parent armature object to SCS Root Object.
 
-For creation or deletion of SCS Animations [[+]] and [[-]] buttons on the side of the animations list can be used. 
 
 ### Custom Export Path
 
-As usually 
+First property for SCS Animation that you can set is custom export path which you shall use if you would like to store your animation files somewhere else than rest of the exported files. This path may be useful when you are creating sequence of animations for walkers, as all of your walkers can use the same skeleton and animations and thus you may export them in different directory.
+
+If custom path remains disabled all of the SCS Animations will be exported beside the rest of the exported files.
+
+
+### SCS Animations List
+
+Under custom export filepath you will find SCS Animations list where all animations used on current SCS Game Object are listed. For creation or deletion of SCS Animations use [[+]] and [[-]] buttons on the side of the animations list. Furthermore animations can be imported with [[importbutton]]  button, which will place you into file browser to select SCS Animation for importing.
+
+Each SCS Animation entry features: 
+* name of SCS Animation which will be also used as the name of exported animation (PIA) file, 
+* export operator [[exportbutton]] for exporting only animation used in that line,
+* export inclusion property, which will decline export of animation used in that line when it's unticked and you are exporting whole SCS Game Object.
+
+
+### Active Animation Settings
+
+
+### Animation Player
+
 
 # SCS Skeleton Panel
 
