@@ -42,8 +42,8 @@ Properties of SCS Animation:
 * **Start** - frame in action which will be used as a start of SCS Animation,
 * **End** - frame in action which will be used as an end of SCS Animation,
 * **Length** - animation duration in seconds,
-* **Increase Animation Step [[increasebutton]]** - stretches action by factor 2 and increases **Export Step** by one to compensate scaling. This gives you better control on sub keyframes and distribution of transformations over time,
-* **Decrease Animation Step [[decreasebutton]]** - shrinks action by factor 2 and decreases **Export Step** by one to compensate scaling. This removes each second keyframe which decreases control over the whole animation,
+* **Increase Animation Step [[increasebutton]]** - stretches action by factor 2 and increases ***Export Step*** by one to compensate scaling. This gives you better control on sub keyframes and distribution of transformations over time,
+* **Decrease Animation Step [[decreasebutton]]** - shrinks action by factor 2 and decreases ***Export Step*** by one to compensate scaling. This removes each second keyframe which decreases control over the whole animation,
 * **Export Step** - number of frames to step in Blender action for each iteration on export.
 
 
