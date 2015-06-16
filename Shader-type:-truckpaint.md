@@ -19,7 +19,7 @@ Additionally "aux" parameters inside material are used only for preview purposes
     > NOTE: Not using this extension alternative UV  won't be exported and thus can not be used in definition files for paint job.
 
 2. **"truckpaint.airbrush"** - uses paint job as airbrush mask. Paintjob texture is multiplied with base truck paint color by factor of paintjob texture alpha channel.
-    > NOTE: may or may not be used, shader will give the same result as usage of this extension is specified in definition files and the extension doesn't effect exported data.
+    > NOTE: May or may not be used, shader will give the same result as usage of this extension is specified in definition files and the extension doesn't effect exported data.
 
 3. **"truckpaint.airbrush.altuv"** - combined "truckpaint.altuv" and "truckpaint.airbrush" extensions.
 
