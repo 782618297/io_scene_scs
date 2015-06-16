@@ -45,28 +45,28 @@ This panel area is place where you link Blender action (animation) and set vario
 Properties of SCS Animation:
 * **Start** - frame in action which will be used as a start of SCS Animation,
 * **End** - frame in action which will be used as an end of SCS Animation,
-* **Length** - animation duration in seconds,
-* **Increase Animation Step [[increasebutton]]** - stretches action by factor 2 and increases ***Export Step*** by one to compensate scaling. This gives you better control on sub keyframes and distribution of transformations over time,
-* **Decrease Animation Step [[decreasebutton]]** - shrinks action by factor 2 and decreases ***Export Step*** by one to compensate scaling. This removes each second keyframe which decreases control over the whole animation,
+* **Length** - SCS Animation duration in seconds,
+* **Increase Animation Step [[increasebutton]]** - stretches action by factor 2 and increases ***Export Step*** by 1 to compensate scaling. This gives you better control on sub keyframes and distribution of transformations over time,
+* **Decrease Animation Step [[decreasebutton]]** - shrinks action by factor 2 and decreases ***Export Step*** by 1 to compensate scaling. This removes each second keyframe, which decreases control over the animation,
 * **Export Step** - number of frames to step in Blender action for each iteration during export.
 
 
 ### Animation Player
 
-To preview currently selected SCS Animation you can use Animation Player, which is only wrapped interface for already existing settings in Blender Timeline editor.
+To preview currently selected SCS Animation you can use Animation Player, which is nothing more than wrapped interface from multiple Blender editors for already existing settings.
 
 > NOTE: You can also preview currently selected SCS Animation by hitting keyboard shortcut for starting animation playback: ***Alt+A***.
 
 First row consist from **Start**, **End** and **Current** frame of animation playback. While second row gives you possibility to use playback controls and set FPS for animation playback.
 
-> NOTE: Changing FPS manually will invalidate currently selected SCS Animation preview as FPS is calculated by set ***Start***, ***End*** and ***Length*** of SCS Animation.
+> NOTE: Changing FPS manually will invalidate preview of currently selected SCS Animation as FPS is calculated by set ***Start***, ***End*** and ***Length*** of SCS Animation.
 
 
 # SCS Skeleton Panel
 
-There is also additional panel for setting custom skeleton file path inside SCS Project Base Path and name of skeleton file name (PIS) which will be created in the case of exporting animated SCS Game Object.
+There is also additional panel for setting custom skeleton file path inside SCS Project Base Path and name of skeleton file (PIS) which will be created in the case of exporting animated SCS Game Object.
 
-This custom path and name comes handy again in the case of creating sequence of animations for walkers, as all of your walkers can use the same skeleton and thus you may export skeleton in different directory.
+This custom path and name come handy again in the case of creating sequence of animations for walkers, as all of your walkers can use the same skeleton and thus you may export skeleton in different directory.
 
-If both paths remains empty, skeleton file (PIS) will be saved beside other exported files and will use SCS Root Object name as the name of the file.
+If both paths remain empty, skeleton file (PIS) will be saved beside other exported files and will use SCS Root Object name as the name of the file.
 
