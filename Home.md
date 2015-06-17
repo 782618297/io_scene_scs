@@ -47,6 +47,7 @@ For the creation of mods you will need:
  * [[Look System]]
  * [[Lamp System]]
     * [[Lamp Tools]]
+ * [[Animation System]]
  * [[Locators]]
     * [[Model Locators]]
     * [[Collision Locators]]
