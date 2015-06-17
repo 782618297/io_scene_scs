@@ -14,3 +14,4 @@ As library of shaders in Blender Tools is already quite big, shaders were divide
 12. [[Shader type: mlaaweight]]
 13. [[Shader type: shadowonly]]
 14. [[Shader type: truckpaint]]
+15. [[Shader type: unlit.vcol.tex.a.over]]
