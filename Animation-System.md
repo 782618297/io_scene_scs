@@ -16,7 +16,7 @@ After you successfully animate bones with Blender action you will have to set up
 
 # SCS Animations Panel
 
-To export created Blender action into the game you will have to use SCS Animations panel which you can find inside Blender Properties window in object tab under SCS Object Specials. The panel will appear only if the currently selected object is armature.
+To export created Blender action into the game you will have to define SCS Animations with usage of SCS Animations panel which you can find inside Blender Properties window in object tab under SCS Object Specials. The panel will appear only if the currently selected object is armature.
 
 [[images/SCS_Tools_Object_Specials_-_Animations.png]]
 
