@@ -11,6 +11,7 @@
  * [[Variant System]]
  * [[Look System]]
  * [[Lamp System]]
+ * [[Animation System]]
  * [[Locators]]
     * [[Model Locators]]
     * [[Collision Locators]]
