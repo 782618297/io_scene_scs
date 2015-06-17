@@ -14,7 +14,7 @@ Regardless of the SCS Animation type, creation pipeline within Blender Tools is 
 
 To export created Blender action into the game you will have to use SCS Animations panel which you can find inside Blender Properties window in object tab under SCS Object Specials. The panel will appear only if the currently selected object is armature.
 
-[[animations panel picture]]
+[[images/SCS_Tools_Object_Specials_-_Animations.png]]
 
 > NOTE: When seeing "No 'SCS Root Object'!" message instead of animations list make sure to parent armature object to SCS Root Object.
 
@@ -30,11 +30,11 @@ If custom path remains disabled, all of the SCS Animations will be exported besi
 
 ### SCS Animations List
 
-SCS Animations list contains all animations used on current SCS Game Object. For creation or deletion of SCS Animations use [[+]] and [[-]] buttons on the side of the animations list. Furthermore, animations can be imported with [[importbutton]]  button, which will place you into the file browser to select SCS Animation for importing.
+SCS Animations list contains all animations used on current SCS Game Object. For creation or deletion of SCS Animations use [[images/SCS_Tools_Object_Specials_-_Animations_Create_Anim.png]] and [[images/SCS_Tools_Object_Specials_-_Animations_Delete_Anim.png]] buttons on the side of the animations list. Furthermore, animations can be imported with [[images/SCS_Tools_Object_Specials_-_Animations_Import_Anim.png]]  button, which will place you into the file browser to select SCS Animation for importing.
 
 Each SCS Animation entry features: 
 * name of SCS Animation which will be also used as the name of exported animation file (PIA), 
-* export operator [[exportbutton]] for direct export of animation used in that line via file browser,
+* export operator ( [[images/SCS_Tools_Object_Specials_-_Animations_Export_Anim.png]] ) for direct export of animation used in that line via file browser,
 * export inclusion property will exclude animation used in that line from exporting, if it's unchecked and you are exporting whole SCS Game Object.
 
 
@@ -46,8 +46,8 @@ Properties of SCS Animation:
 * **Start** - frame in action which will be used as a start of SCS Animation,
 * **End** - frame in action which will be used as an end of SCS Animation,
 * **Length** - SCS Animation duration in seconds,
-* **Increase Animation Step [[increasebutton]]** - stretches action by factor 2 and increases ***Export Step*** by 1 to compensate scaling. This gives you better control on sub keyframes and distribution of transformations over time,
-* **Decrease Animation Step [[decreasebutton]]** - shrinks action by factor 2 and decreases ***Export Step*** by 1 to compensate scaling. This removes each second keyframe, which decreases control over the animation,
+* **Increase Animation Step ( [[images/SCS_Tools_Object_Specials_-_Animations_Increase_Step.png]] )** - stretches action by factor 2 and increases ***Export Step*** by 1 to compensate scaling. This gives you better control on sub keyframes and distribution of transformations over time,
+* **Decrease Animation Step ( [[images/SCS_Tools_Object_Specials_-_Animations_Decrease_Step.png]] )** - shrinks action by factor 2 and decreases ***Export Step*** by 1 to compensate scaling. This removes each second keyframe, which decreases control over the animation,
 * **Export Step** - number of frames to step in Blender action for each iteration during export.
 
 
@@ -66,7 +66,7 @@ First row consist from **Start**, **End** and **Current** frame of animation pla
 
 There is also additional panel for setting custom skeleton file path inside SCS Project Base Path and name of skeleton file (PIS) which will be created in the case of exporting animated SCS Game Object.
 
-[[skeletonpanel]]
+[[images/SCS_Tools_Object_Specials_-_Skeleton.png]]
 
 This custom path and name come handy again in the case of creating sequence of animations for walkers, as all of your walkers can use the same skeleton and thus you may export skeleton in different directory.
 
