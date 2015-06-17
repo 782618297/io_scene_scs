@@ -11,6 +11,7 @@
  * [[Variant System]]
  * [[Look System]]
  * [[Lamp System]]
+    * [[Lamp Tools]]
  * [[Animation System]]
  * [[Locators]]
     * [[Model Locators]]
