@@ -12,7 +12,7 @@ Regardless of the SCS Animation type, creation pipeline within Blender Tools is 
 
 # SCS Animations Panel
 
-To export created Blender action into the game you will have to use SCS Animations panel which you can find inside Blender Properties window in object tab. The panel will appear only if the currently selected object is armature.
+To export created Blender action into the game you will have to use SCS Animations panel which you can find inside Blender Properties window in object tab under SCS Object Specials. The panel will appear only if the currently selected object is armature.
 
 [[animations panel picture]]
 
