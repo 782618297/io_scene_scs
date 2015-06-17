@@ -9,9 +9,9 @@ Regardless of the SCS Animation type, creation pipeline within Blender Tools is 
 
 > NOTE: Only location, rotation and scale manipulation of bones will be exported during SCS Animation export, anything else will be ignored even if it will be animated and played inside Blender.
 
-After you successfully animate bones with Blender action you will have to set up SCS Animation in SCS Animations panel.
+After you successfully animate bones with Blender action you will have to set up SCS Animation in SCS Animations panel. Once setup is done you can export your SCS Game Object as you did before and animations will be exported with it.
 
-> NOTE: Remember that before export of animated model you have to enable Animated Model on SCS Root Object, switch can be found in [[Root-Objects]] panel.
+> NOTE: Remember that for export of animated model you have to enable ***Animated Model*** in SCS Root Object properties, switch can be found in [[Root-Objects]] panel.
 
 
 # SCS Animations Panel
