@@ -1,0 +1,3 @@
+Basic shader with base texture without usage of surface lightning model. It's result is simple multiplication of material diffuse color, base texture color and vertex color. Furthermore opacity of material using this shader is defined with alpha channel of the base texture, where value 0 is completely transparent and value 255 is completely opaque.
+
+Example usage of this shader are animated indicators of dashboard inside truck interior in Euro Truck Simulator 2.
