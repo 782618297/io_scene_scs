@@ -66,6 +66,8 @@ First row consist from **Start**, **End** and **Current** frame of animation pla
 
 There is also additional panel for setting custom skeleton file path inside SCS Project Base Path and name of skeleton file (PIS) which will be created in the case of exporting animated SCS Game Object.
 
+[[skeletonpanel]]
+
 This custom path and name come handy again in the case of creating sequence of animations for walkers, as all of your walkers can use the same skeleton and thus you may export skeleton in different directory.
 
 If both paths remain empty, skeleton file (PIS) will be saved beside other exported files and will use SCS Root Object name as the name of the file.
