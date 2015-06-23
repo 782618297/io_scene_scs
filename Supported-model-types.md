@@ -5,6 +5,12 @@ As Blender Tools are still in development below is the list of currently support
    * Upgrade pieces for trucks 
    * Wheels for vehicles
 
-2. Vehicles ( Blender Tools version 0.5 and later ):
+2. Vehicles (v0.5+):
    * Trailers
    * AI Cars
+   * Trucks (v0.6+)
+
+3. Animated geometries (v0.6+):
+   * Walkers
+   * Movers
+   * Truck interior animations
