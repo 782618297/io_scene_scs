@@ -81,13 +81,13 @@ If prefab shouldn't have any traffic inside, no navigation point locators should
 
 [[/images/SCS_Tools_Locators_Prefab_NP.png]]
 
-**Low Probability** - 
+**Low Probability** - property defining smaller visiting probability for AI cars.
 
-**Additive Priority** - 
+**Additive Priority** - property defining that selected value from "Priority Modifier" will be added to already existing priority for this lane.
 
-**Limit Displacement** -
+**Limit Displacement** - property defining that AI cars displacement should be extra limited.
 
-**Allowed Vehicles** - 
+**Allowed Vehicles** - property defining type of vehicles that are able to enter AI traffic lane defined starting at this navigation point.
 
 **Blinkers [Left Blinker|No Blinker|No Blinker (forced)|Right Blinker]** -
 
