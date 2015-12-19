@@ -143,11 +143,11 @@ Property defining additional rule for AI cars like speed limits. This property c
 
 Property defining input/output AI traffic lanes for selected "Boundary Node".
 
-> NOTE: Each Control Node can have only one unique boundary value of input/output lanes, meaning you can not use same input/output lane on more navigation points for same Control Node.
+> NOTE: Each control node can have only one unique boundary value of input/output lanes, meaning you can not use same input/output lane on more navigation points for same control node.
 
 **Boundary Node**
 
-Property binding Control Node that should use "Boundary" setting from this navigation point. Moreover this property is used only if "Boundary" of this navigation point will be set some input/output lane, otherwise value of this property doesn't matter.
+Property binding control node that should use "Boundary" setting from this navigation point. Moreover this property is used only if "Boundary" of this navigation point will be set some input/output lane, otherwise value of this property doesn't matter.
 
 
 ## Map Point
