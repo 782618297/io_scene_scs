@@ -4,9 +4,10 @@ Because of different usage and data we have multiple types of Prefab Locators wi
 
 ## Control Node
 
-Control Node is used: as prefab control in SCS map editor, as connection to other map assets and also as AI traffic entry/exits point. 
+Control Node is used: as prefab control in SCS map editor, as connection to other map assets and also as AI traffic entry/exit point. 
 
 For proper prefab creation this requirements have to be meet:
+
 1. Prefab must have from 2 to 6 control nodes;
 2. Each control node has to have unique index, defined by "Node Index" property;
 3. When creating more than 2 nodes, they have to be placed clockwise starting with index 0;
@@ -14,20 +15,56 @@ For proper prefab creation this requirements have to be meet:
 
 [[/images/SCS_Tools_Locators_Prefab_CN.png]]
 
-***Node Index*** - saves index of the control node
+**Node Index** - property which defines index of the control node.
+
+**Assign Terrain Points** - operator for assigning terrain points from mesh to the control node. For usage please use info icon on the left side of operator button.
+
+**Clear All Terrain Points** - operator for clearing all terrain points from the control node.
+
+**Preview Terrain Points [Visible|All]** - are operators for previewing currently assigned terrain points of the control node. ***Visible*** operator will show only assigned terrain points of currently visible mesh in 3D viewport; as for ***All*** will also preview any assigned terrain points from hidden mesh.
 
 
 ## Sign
 
+Sign locator is exactly what names says: locator for placing signs on prefabs. With assigning "Sign Model" property from Sign Library it is decided which sign will appear on the place of locator in the game.
+
+> NOTE: If you are not able to assign any sign to "Sign Model" property, make sure your Sign Library path is properly set.
+
 [[/images/SCS_Tools_Locators_Prefab_SIGN.png]]
+
+**Sign Model** - property defining sign id which shall be used in the game.
 
 ## Spawn Point
 
+Spawn point locator defines point of different predefined players actions.
+
+Example usage for company dock for Euro Truck Simulator 2 is creating at least two spawn points:
+1. Spawn point of type "Company Point" which defines, check in point that player uses when he wants to select delivery;
+2. 2nd spawn point of type "Unload (Easy)" which defines, the point to which user has to park trailer.
+
 [[/images/SCS_Tools_Locators_Prefab_SP.png]]
+
+**Spawn Type** - property defining type of spawn point.
 
 ## Traffic Semaphore
 
+Traffic semaphore locators define stop and go actions for AI traffic. Primarily it's used for traffic lights but it can also be used for any other game defined profile, for example stopping AI car at gas station for fuel filling.
+
+It's behaviour is defined by selected "Profile" and it's bind to user specified "ID". Selected "ID" is then used in "Navigation Points" to define effected AI traffic lane of this semaphore (check [Navigation Point](Prefab-Locators#navigation-point) for details).
+
+Additionally user can specify "Type" property for defining of exceptional behaviour (use it only if you know what you are doing).
+
 [[/images/SCS_Tools_Locators_Prefab_TS.png]]
+
+**ID** - 
+
+**Profile** - 
+
+**Type** -
+
+**Intervals/Distances [G,O,R,O]** - 
+
+**Cycle Delay** - 
 
 ## Navigation Point
 
