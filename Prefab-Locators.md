@@ -16,13 +16,21 @@ For proper prefab creation this requirements have to be meet:
 
 [[/images/SCS_Tools_Locators_Prefab_CN.png]]
 
-**Node Index** - property which defines index of the control node.
+**Node Index**
 
-**Assign Terrain Points** - operator for assigning terrain points from mesh to the control node. For usage please use info icon on the left side of operator button.
+Property which defines index of the control node.
 
-**Clear All Terrain Points** - operator for clearing all terrain points from the control node.
+**Assign Terrain Points**
 
-**Preview Terrain Points [Visible|All]** - are operators for previewing currently assigned terrain points of the control node. ***Visible*** operator will show only assigned terrain points of currently visible mesh in 3D viewport; as for ***All*** will also preview any assigned terrain points from hidden mesh.
+Operator for assigning terrain points from mesh to the control node. For usage please use info icon on the left side of operator button.
+
+**Clear All Terrain Points**
+
+Operator for clearing all terrain points from the control node.
+
+**Preview Terrain Points [Visible|All]**
+
+Are operators for previewing currently assigned terrain points of the control node. ***Visible*** operator will show only assigned terrain points of currently visible mesh in 3D viewport; as for ***All*** will also preview any assigned terrain points from hidden mesh.
 
 
 ## Sign
@@ -33,7 +41,9 @@ Sign locator is exactly what names says: locator for placing signs on prefabs. W
 
 [[/images/SCS_Tools_Locators_Prefab_SIGN.png]]
 
-**Sign Model** - property defining sign id which shall be used in the game.
+**Sign Model**
+
+Property defining sign id which shall be used in the game.
 
 
 ## Spawn Point
@@ -47,7 +57,9 @@ Example usage for company dock for Euro Truck Simulator 2 is creating at least t
 
 [[/images/SCS_Tools_Locators_Prefab_SP.png]]
 
-**Spawn Type** - property defining type of spawn point.
+**Spawn Type**
+
+Property defining type of spawn point.
 
 
 ## Traffic Semaphore
@@ -60,17 +72,27 @@ Additionally user can specify "Type" property for defining of exceptional behavi
 
 [[/images/SCS_Tools_Locators_Prefab_TS.png]]
 
-**ID** - property defining ID of the semaphore.
+**ID**
 
-**Profile** - property defining profile from Traffic Semaphore Library, which defines behaviour of traffic semaphore: intervals/distances and cycle delays.
+Property defining ID of the semaphore.
+
+**Profile**
+
+Property defining profile from Traffic Semaphore Library, which defines behaviour of traffic semaphore: intervals/distances and cycle delays.
 
 > NOTE: If you are not able to assign any profile, make sure your Traffic Semaphore Library path is properly set.
 
-**Type** - property defining semaphore type. In most cases "(use profile)" should be in use, meaning any intervals/distances and cycle delay will be defined by used profile from Traffic Semaphore Library.
+**Type**
 
-**Intervals/Distances [G,O,R,O]** - intervals/distances for each state of traffic semaphore. Enabled only if you don't use "(use profile)" type of traffic semaphore.
+Property defining semaphore type. In most cases "(use profile)" should be in use, meaning any intervals/distances and cycle delay will be defined by used profile from Traffic Semaphore Library.
 
-**Cycle Delay** - property defining delay for which each semaphore cycle will be delayed before starting again. Enabled only if you don't use "(use profile)" type of traffic semaphore.
+**Intervals/Distances [G,O,R,O]**
+
+Properties defining intervals/distances for each state of traffic semaphore. Enabled only if you don't use "(use profile)" type of traffic semaphore.
+
+**Cycle Delay**
+
+Property defining delay for which each semaphore cycle will be delayed before starting again. Enabled only if you don't use "(use profile)" type of traffic semaphore.
 
 
 ## Navigation Point
@@ -81,27 +103,51 @@ If prefab shouldn't have any traffic inside, no navigation point locators should
 
 [[/images/SCS_Tools_Locators_Prefab_NP.png]]
 
-**Low Probability** - property defining smaller visiting probability for AI cars.
+**Low Probability**
 
-**Additive Priority** - property defining that selected value from "Priority Modifier" will be added to already existing priority for this lane.
+Property defining smaller visiting probability for AI cars.
 
-**Limit Displacement** - property defining extra limited displacement for AI cars.
+**Additive Priority**
 
-**Allowed Vehicles** - property defining type of vehicles that are able to enter AI traffic curves starting at this navigation point.
+Property defining that selected value from "Priority Modifier" will be added to already existing priority for this lane.
 
-**Blinkers [Left Blinker|No Blinker|No Blinker (forced)|Right Blinker]** - property defining blinker usage for all incoming AI traffic curves connected to this navigation point.
+**Limit Displacement**
 
-**Priority Modifier** - property defining priority of vehicles driving into the next curve. Priority modifier has to be set only on navigation point which next curve is intersecting with opposite lane or next navigation point is merging more curves. Upon that modifier values game will decide order of cars proceeding in the point of intersection.
+Property defining extra limited displacement for AI cars.
 
-> NOTE: if property modifiers won't be properly set, game will print out errors about it, so you will be able to fix missing priorities.
+**Allowed Vehicles**
 
-**Traffic Semaphore** -
+Property defining type of vehicles that are able to enter AI traffic curves starting at this navigation point.
 
-**Traffic Rule** -
+**Blinkers [Left Blinker|No Blinker|No Blinker (forced)|Right Blinker]**
 
-**Boundary** - 
+Property defining blinker usage for all incoming AI traffic curves connected to this navigation point.
 
-**Boundary Node** - 
+**Priority Modifier**
+
+Property defining priority of vehicles driving into the next curve. Priority modifier has to be set only on navigation point which next curve is intersecting with opposite lane or next navigation point is merging more curves. Upon that modifier values game will decide order of cars proceeding in the point of intersection.
+
+> NOTE: If property modifiers won't be properly set, game will print out errors about it, so you will be able to fix missing priorities.
+
+**Traffic Semaphore**
+
+This property binds [Traffic Semaphore](Prefab-Locators#traffic-semaphore) to AI traffic lanes by it's "ID" property. If "ID" property from Traffic Semaphore locator matches this property value, then AI will behave by the rules of that semaphore locator.
+
+**Traffic Rule**
+
+Property defining additional rule for AI cars like speed limits. This property can be set to any rule from Traffic Rules Library.
+
+> NOTE: If you want to assign rule and list turns out empty, make sure your Traffic Rules Library path is properly set.
+
+**Boundary**
+
+Property defining input/output AI traffic lanes for selected "Boundary Node".
+
+> NOTE: Each Control Node can have only one unique boundary value of input/output lanes, meaning you can not use same input/output lane on more navigation points for same Control Node.
+
+**Boundary Node**
+
+Property binding Control Node that should use "Boundary" setting from this navigation point. Moreover this property is used only if "Boundary" of this navigation point will be set some input/output lane, otherwise value of this property doesn't matter.
 
 
 ## Map Point
