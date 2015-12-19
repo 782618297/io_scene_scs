@@ -71,6 +71,8 @@ Additionally user can specify "Type" property for defining of exceptional behavi
 
 ## Navigation Point
 
+Navigation Point locators are used for creation of AI traffic lanes. Because AI traffic lanes define path for AI cars inside prefab, navigation point locators have to be properly connected and they have to lead from one control node to another.
+
 [[/images/SCS_Tools_Locators_Prefab_NP.png]]
 
 ## Map Point
