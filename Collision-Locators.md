@@ -2,7 +2,7 @@ Collision locators are used for simulation of realistic physical interactions be
 
 Each locator object has it's own display options which will set rendering mode of locator in 3D view. You can switch rendering of wire frame ("Wireframes") and shell ("Faces") of locator.
 
-First property that will reflect exported data is "Locator Centered", which will position locator primitive to center when used.
+All primitive collision locators have "Locator Centered" property, which will position primitive to center of locator.
 
 All types also features physical property "Mass Weight" which specifies mass of the object.
 
