@@ -58,9 +58,7 @@ Library of Material Substances, which defines physical behavior of the material.
 
 **Shader Presets Library** _[“*.txt” file, absolute file path]_
 
-Shader Presets library filepath. This library has been created specially for SCS Blender Tools and thus it is located in its installation folder. The correct path should be set automatically. Details on Shader Presets you can find in “Materials” chapter
-
-> NOTE: Sign, Semaphore, Traffic Rules and Mat Substance libraries are not fully supported yet!
+Shader Presets library filepath. This library has been created specially for SCS Blender Tools and thus it is located in its installation folder. The correct path should be set automatically. Details on Shader Presets you can find in “Materials” chapter.
 
 
 ## Display Settings
