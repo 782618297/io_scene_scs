@@ -63,7 +63,7 @@ Additionally user can specify "Type" property for defining of exceptional behavi
 
 > NOTE: If you are not able to assign any profile, make sure your Traffic Semaphore Library path is properly set.
 
-**Type** - property defining semaphore type. In most cases Traffic Semaphore Library should be used, meaning this property should be set to "(use profile)", so any intervals/distances and cycle delay will be defined with profile.
+**Type** - property defining semaphore type. In most cases "(use profile)" should be in use, meaning any intervals/distances and cycle delay will be defined by used profile from Traffic Semaphore Library.
 
 **Intervals/Distances [G,O,R,O]** - intervals/distances for each state of traffic semaphore. Enabled only if you don't use "(use profile)" type of traffic semaphore.
 
