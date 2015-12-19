@@ -85,13 +85,13 @@ If prefab shouldn't have any traffic inside, no navigation point locators should
 
 **Additive Priority** - property defining that selected value from "Priority Modifier" will be added to already existing priority for this lane.
 
-**Limit Displacement** - property defining that AI cars displacement should be extra limited.
+**Limit Displacement** - property defining extra limited displacement for AI cars.
 
-**Allowed Vehicles** - property defining type of vehicles that are able to enter AI traffic lane defined starting at this navigation point.
+**Allowed Vehicles** - property defining type of vehicles that are able to enter AI traffic lanes starting at this navigation point.
 
-**Blinkers [Left Blinker|No Blinker|No Blinker (forced)|Right Blinker]** -
+**Blinkers [Left Blinker|No Blinker|No Blinker (forced)|Right Blinker]** - property defining blinker usage for all incoming AI traffic curves connected to this navigation point.
 
-**Priority Modifier** -
+**Priority Modifier** - 
 
 **Traffic Semaphore** -
 
