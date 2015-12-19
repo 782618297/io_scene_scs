@@ -93,7 +93,7 @@ If prefab shouldn't have any traffic inside, no navigation point locators should
 
 **Priority Modifier** - property defining priority of vehicles driving into the next curve. Priority modifier has to be set only on navigation point which next curve is intersecting with opposite lane or next navigation point is merging more curves. Upon that modifier values game will decide order of cars proceeding in the point of intersection.
 
-> NOTE: if property modifiers won't be properly set game will print out errors about it, so you are able to fix missing priorities.
+> NOTE: if property modifiers won't be properly set, game will print out errors about it, so you will be able to fix missing priorities.
 
 **Traffic Semaphore** -
 
