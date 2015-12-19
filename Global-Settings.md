@@ -13,7 +13,7 @@ There are two sub-palettes: ***Path Settings*** and ***Display Settings***.
 
 ## Path Settings
 
-Before you start to use the tools, it is necessary to specify where to access data sources, which are used for filling up of some library menus and addressing textures. First of all, you’ll need to set the main folder that contains your project. Do it to the “SCS Project Path” entry. Other routes usually proceed from that location, and therefore can be stored in the form of a relative path. However that doesn’t need to be the rule every time and therefore the mechanism for path selection in the SCS Tools will always decide the appropriate form for the path. If paths are set properly is clearly seen from color of its background – if any entry is faulty, the background is in red color and needs to be set to the valid location or valid library file.
+Before you start to use the tools, it is necessary to specify where to access data sources, which are used for filling up of some library menus and addressing textures. First of all, you’ll need to set the main folder that contains your project. Do it to the “SCS Project Base Path” entry. Other routes usually proceed from that location, and therefore can be stored in the form of a relative path. However that doesn’t need to be the rule every time and therefore the mechanism for path selection in the SCS Tools will always decide the appropriate form for the path. If paths are set properly is clearly seen from color of its background – if any entry is faulty, the background is in red color and needs to be set to the valid location or valid library file.
 
 [[images/SCS_Tools_Globals_Path_01.png]]
 
@@ -22,14 +22,18 @@ Before you start to use the tools, it is necessary to specify where to access da
 
 ***This is most important path, which leads to “base” directory of any SCS game. Base directory always has to have specific structure, because of relative texture and definition file addressing.*** So all of the paths of following libraries should continue from this location and should be in relative form. However if you prefer another location for those libraries, you can use it and the path form will be automatically chosen.
 
-> NOTE: For importing sample models make sure you set SCS Project Base Path to folder "data/sample_base" in downloaded package of SCS Blender Tools
+> NOTE: For importing sample models make sure you set SCS Project Base Path to one of the sample base folders inside "data" directory of downloaded SCS Blender Tools package.
 
 > NOTE: You should prefer another location for libraries only if you are using any custom library file.
+
+**Trigger Action Library** _[“*.sii” file, absolute or relative path to 'SCS Project Base Path']_
+
+Library of predefined trigger actions. You can assign them to Trigger Prefab Locators which are used in game for triggering various actions (for example sleeping areas).
 
 
 **Sign Library** _[“*.sii” file, absolute or relative path to 'SCS Project Base Path']_
 
-Library of predefined traffic Signs. You can assign them to Sign Prefab Locators which are used in game to create traffic signs. These are respected by AI cars and lay the traffic rules for player. Details on Signs you can find in “Signs” chapter.
+Library of predefined traffic Signs. You can assign them to Sign Prefab Locators which are used in game to create traffic signs or any model defined as sign. Most of them are respected by AI cars and lay the traffic rules for player. Details on Signs you can find in “Signs” chapter.
 
 
 **Semaphore Library** _[“*.sii” file, absolute or relative path to 'SCS Project Base Path']_
