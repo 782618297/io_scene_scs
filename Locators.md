@@ -34,5 +34,3 @@ Here you can turn displaying of already loaded Preview Model ON or OFF.
 Drop-down menu enables to change the drawing type for the Preview Model. The choices are “Wire”, “Solid” and “Bounds”. Please note, that “Textured” drawing mode has not much of sense here, since the materials for Preview Models are not loaded at a time.
 
 > NOTE: You can also disable/enable displaying of all Preview Models in the scene using the global option “Show Preview Models” in the Display Settings sub-palette.
-> 
-> [[images/SCS_Tools_Locators_Preview_Model_03.png]]
