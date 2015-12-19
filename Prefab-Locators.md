@@ -75,7 +75,7 @@ Additionally user can specify "Type" property for defining of exceptional behavi
 
 ## Navigation Point
 
-Navigation Point locators are used for creation of AI traffic lanes. Because AI traffic lanes define driving paths for AI cars inside prefab, navigation point locators have to be properly connected and they have to lead from one control node to another. Moreover navigation points on each ends has to have set boundary lanes from which traffic will come and go to other connected map assets.
+Navigation Point locators are used for creation of AI traffic lanes with curves. Because AI traffic lanes define driving paths for AI cars inside prefab, navigation point locators have to be properly connected and they have to lead from one control node to another. Moreover navigation points on each ends has to have set boundary lanes from which traffic will come and go to other connected map assets.
 
 If prefab shouldn't have any traffic inside, no navigation point locators should be created.
 
@@ -87,11 +87,13 @@ If prefab shouldn't have any traffic inside, no navigation point locators should
 
 **Limit Displacement** - property defining extra limited displacement for AI cars.
 
-**Allowed Vehicles** - property defining type of vehicles that are able to enter AI traffic lanes starting at this navigation point.
+**Allowed Vehicles** - property defining type of vehicles that are able to enter AI traffic curves starting at this navigation point.
 
 **Blinkers [Left Blinker|No Blinker|No Blinker (forced)|Right Blinker]** - property defining blinker usage for all incoming AI traffic curves connected to this navigation point.
 
-**Priority Modifier** - 
+**Priority Modifier** - property defining priority of vehicles driving into the next curve. Priority modifier has to be set only on navigation point which next curve is intersecting with opposite lane or next navigation point is merging more curves. Upon that modifier values game will decide order of cars proceeding in the point of intersection.
+
+> NOTE: if property modifiers won't be properly set game will print out errors about it, so you are able to fix missing priorities.
 
 **Traffic Semaphore** -
 
