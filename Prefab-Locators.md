@@ -2,6 +2,7 @@ Prefab locators are used during the creation of prefab map assets. Examples of t
 
 Because of different usage and data we have multiple types of Prefab Locators with their own set of properties described below.
 
+
 ## Control Node
 
 Control Node is used: as prefab control in SCS map editor, as connection to other map assets and also as AI traffic entry/exit point. 
@@ -34,6 +35,7 @@ Sign locator is exactly what names says: locator for placing signs on prefabs. W
 
 **Sign Model** - property defining sign id which shall be used in the game.
 
+
 ## Spawn Point
 
 Spawn point locator defines point of different predefined players actions.
@@ -46,6 +48,7 @@ Example usage for company dock for Euro Truck Simulator 2 is creating at least t
 [[/images/SCS_Tools_Locators_Prefab_SP.png]]
 
 **Spawn Type** - property defining type of spawn point.
+
 
 ## Traffic Semaphore
 
@@ -69,15 +72,40 @@ Additionally user can specify "Type" property for defining of exceptional behavi
 
 **Cycle Delay** - property defining delay for which each semaphore cycle will be delayed before starting again. Enabled only if you don't use "(use profile)" type of traffic semaphore.
 
+
 ## Navigation Point
 
-Navigation Point locators are used for creation of AI traffic lanes. Because AI traffic lanes define path for AI cars inside prefab, navigation point locators have to be properly connected and they have to lead from one control node to another.
+Navigation Point locators are used for creation of AI traffic lanes. Because AI traffic lanes define driving paths for AI cars inside prefab, navigation point locators have to be properly connected and they have to lead from one control node to another. Moreover navigation points on each ends has to have set boundary lanes from which traffic will come and go to other connected map assets.
+
+If prefab shouldn't have any traffic inside, no navigation point locators should be created.
 
 [[/images/SCS_Tools_Locators_Prefab_NP.png]]
+
+**Low Probability** - 
+
+**Additive Priority** - 
+
+**Limit Displacement** -
+
+**Allowed Vehicles** - 
+
+**Blinkers [Left Blinker|No Blinker|No Blinker (forced)|Right Blinker]** -
+
+**Priority Modifier** -
+
+**Traffic Semaphore** -
+
+**Traffic Rule** -
+
+**Boundary** - 
+
+**Boundary Node** - 
+
 
 ## Map Point
 
 [[/images/SCS_Tools_Locators_Prefab_MP.png]]
+
 
 ## Trigger Point
 
