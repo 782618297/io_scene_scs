@@ -39,6 +39,7 @@ Sign locator is exactly what names says: locator for placing signs on prefabs. W
 Spawn point locator defines point of different predefined players actions.
 
 Example usage for company dock for Euro Truck Simulator 2 is creating at least two spawn points:
+
 1. Spawn point of type "Company Point" which defines, check in point that player uses when he wants to select delivery;
 2. 2nd spawn point of type "Unload (Easy)" which defines, the point to which user has to park trailer.
 
@@ -56,15 +57,17 @@ Additionally user can specify "Type" property for defining of exceptional behavi
 
 [[/images/SCS_Tools_Locators_Prefab_TS.png]]
 
-**ID** - 
+**ID** - property defining ID of the semaphore.
 
-**Profile** - 
+**Profile** - property defining profile from Traffic Semaphore Library, which defines behaviour of traffic semaphore: intervals/distances and cycle delays.
 
-**Type** -
+> NOTE: If you are not able to assign any profile, make sure your Traffic Semaphore Library path is properly set.
 
-**Intervals/Distances [G,O,R,O]** - 
+**Type** - property defining semaphore type. In most cases Traffic Semaphore Library should be used, meaning this property should be set to "(use profile)", so any intervals/distances and cycle delay will be defined with profile.
 
-**Cycle Delay** - 
+**Intervals/Distances [G,O,R,O]** - intervals/distances for each state of traffic semaphore. Enabled only if you don't use "(use profile)" type of traffic semaphore.
+
+**Cycle Delay** - property defining delay for which each semaphore cycle will be delayed before starting again. Enabled only if you don't use "(use profile)" type of traffic semaphore.
 
 ## Navigation Point
 
