@@ -9,6 +9,6 @@ This property here is the same as Blender Object's name and will be used by game
 
 **Hookup**
 
-This property can be set according to records in “Hookup Library” (see the chapter “Path Settings” in [[Global Settings]]).
+This property can be set according to records in “Hookup Library” (see the chapter “Path Settings” in [[Global Settings]]). However hookup property is used to bind other game objects to the current. Examples of hookups are: flares for lights, pedestrian spawning on prefabs, company logos on prefabs etc.
 
 > NOTE: Model Locators can also use "Preview Model" feature (see the chapter “Preview Models”).
