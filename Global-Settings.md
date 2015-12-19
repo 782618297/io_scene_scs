@@ -33,32 +33,31 @@ Library of predefined trigger actions. You can assign them to Trigger Prefab Loc
 
 **Sign Library** _[“*.sii” file, absolute or relative path to 'SCS Project Base Path']_
 
-Library of predefined traffic Signs. You can assign them to Sign Prefab Locators which are used in game to create traffic signs or any model defined as sign. Most of them are respected by AI cars and lay the traffic rules for player. Details on Signs you can find in “Signs” chapter.
+Library of predefined traffic Signs. You can assign them to Sign Prefab Locators which are used in game to create traffic signs or any model defined as sign. Most of them are respected by AI cars and lay the traffic rules for player.
 
 
 **Semaphore Library** _[“*.sii” file, absolute or relative path to 'SCS Project Base Path']_
 
-Library of predefined Traffic Semaphore profiles. You can assign them to Traffic Semaphore Prefab Locators which are used in game to create traffic semaphores. These are respected by AI cars and should be respected by player as well. Details on Traffic Semaphores you can find in “Traffic Semaphores” chapter.
+Library of predefined Traffic Semaphore profiles. You can assign them to Traffic Semaphore Prefab Locators which are used in game to create traffic semaphores. These are respected by AI cars and should be respected by player as well.
 
 
 **Traffic Rules Library** _[“*.sii” file, absolute or relative path to 'SCS Project Base Path']_
 
-Library of predefined Traffic Rules. You can assign them to Navigation Point Prefab Locators which are used in game to create traffic routes. These are used mainly by AI cars. Details on Traffic Rules you can find in “Navigation Points” chapter.
+Library of predefined Traffic Rules. You can assign them to Navigation Point Prefab Locators which are used in game to create traffic routes. These are used mainly by AI cars.
 
 
 **Hookup Library** _[folder, absolute or relative path to 'SCS Project Base Path']_
 
-Directory containing predefined Hookup files. You can assign them to Model Locators which are used in game to instance other game models within actual model. Details on Hookups you can find in “Model Locators” chapter.
-
+Directory containing predefined Hookup files. You can assign them to Model Locators which are used in game to instance other game models within actual model.
 
 **Mat Substance Library** _[“*.db” file, absolute or relative path to 'SCS Project Base Path']_
 
-Library of Material Substances, which defines physical behavior of the material. You can assign them to Materials. Details on Substances you can find in “Materials” chapter.
+Library of Material Substances, which defines physical behavior of the material. You can assign them to Materials.
 
 
 **Shader Presets Library** _[“*.txt” file, absolute file path]_
 
-Shader Presets library filepath. This library has been created specially for SCS Blender Tools and thus it is located in its installation folder. The correct path should be set automatically. Details on Shader Presets you can find in “Materials” chapter.
+Shader Presets library filepath. This library has been created specially for SCS Blender Tools and thus it is located in its installation folder. The correct path should be set automatically.
 
 
 ## Display Settings
