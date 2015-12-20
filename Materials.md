@@ -10,8 +10,6 @@ Additionally you have to switch shading in the 3D view properties to GLSL and ti
 
 [[images/SCS_Material_Specials_-_3D_View_Setup.png]]
 
-> NOTE: Although materials are now implemented with nodes system there is no guarantee that model will look the same in SCS Game Engine.
-
 
 ### Shader Types
 
