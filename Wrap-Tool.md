@@ -6,4 +6,3 @@ In addition to this there is Wrap Tool which helps you wrap vertex colors of act
 
 * **Wrap All** - wrap vertex colors on all vertices
 * **Wrap Selected** - wrap vertex colors only on selected vertices
-* **Get Statistics** - will output minimum, maximum and average vertex colors values
