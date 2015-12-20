@@ -12,9 +12,13 @@ The import functionality is in _Blender's_ import menu as “_SCS Formats (.pim)
 
 **Import Model (PIM)** - you can turn _Model_ file loading **ON** and **OFF**.
 
-**Auto Welding** - if this property is ticked, automatic vertex welding operation is performed on all imported meshes. It is sometimes necessary, because mesh geometries in ***PIX*** files are exported in a form, which can be called like “graphics-card-friendly”. It means, that vertices are doubled in many cases – on all places where hard edges are, UVs are not continuous, vertex colors are different for neighboring faces, etc. Auto Welding tries to make geometries as compact as possible.
+**Use Normals** - if this property is ticked, mesh will be imported with normals written in file. Otherwise normals are recalculated by Blender itself.
+
+**Use Welding** - if this property is ticked, automatic vertex welding operation is performed on all imported meshes. It is sometimes necessary, because mesh geometries in ***PIX*** files are exported in a form, which can be called like “graphics-card-friendly”. It means, that vertices are doubled in many cases – on all places where hard edges are, UVs are not continuous, vertex colors are different for neighboring faces, etc. Auto Welding tries to make geometries as compact as possible.
 
 > NOTE: This feature can be time-consuming on larger geometries.
+
+**Welding Precision** - threshold in decimal numbers to which values has to be the same that welding can take place. So in case of default value 4, values have to match up to for decimals which is in millimetre measurement 0.1 mm.
 
 **Import Trait (PIT)** - you can turn _Trait_ file loading ***ON*** and ***OFF***.
 
@@ -31,4 +35,4 @@ The import functionality is in _Blender's_ import menu as “_SCS Formats (.pim)
 **Import Animations (PIA)** - you can turn _Animation files_ loading ***ON*** and ***OFF***.
 
 **Search Subdirectories** - if this property is ticked, all available subdirectories will be searched for animation files.
-> NOTE: Please note, that only animation files which belongs to an actual skeleton can be loaded.
+> NOTE: Only animation files which belongs to an actual skeleton can be loaded. If they are not placed beside PIX files or any subdirectory, then you can still import animations later from [SCS Animations Panel](Animation-System#scs-animations-panel)
