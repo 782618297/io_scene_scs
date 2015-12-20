@@ -233,12 +233,20 @@ Property defining time in seconds that player have to be outside trigger area un
 
 **Sphere Trigger**
 
-
+Property defining this trigger point should behave as sphere trigger. In the case of usage, this trigger point should not be connected to any other trigger point.
 
 **Partial Activation**
 
+Property defining that only touching border of trigger area by player is enough to trigger action.
+
 **One Time Activation**
+
+Property defining that this trigger point can be activated only once.
 
 **Manual Activation**
 
+Property which defines that player has to manually activate action once he is inside trigger area.
+
 **Connect/Disconnect Trigger Points**
+
+Operator for connecting/disconnecting two trigger points into trigger area. Make sure that trigger area is closed n-gon. For usage of this operator two map points have to be selected. Selection order doesn't matter as connections are undirected.
