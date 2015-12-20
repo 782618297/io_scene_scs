@@ -219,11 +219,21 @@ Example of trigger points usage is marking rest areas on prefabs for Euro Truck 
 
 **Action**
 
+Property defining action which should trigger when player enters area. Available actions are predefined and loaded from Trigger Actions Library.
+
+> NOTE: If you are not able to assign any action, make sure your Trigger Actions Library path is properly set.
+
 **Range**
+
+Property defining range of trigger point or area of activation. In the case of used "Sphere Trigger" property defines radius of spherical area around trigger point, otherwise this defines vertical range of trigger area.
 
 **Reset Delay**
 
+Property defining time in seconds that player have to be outside trigger area until he can activate it again.
+
 **Sphere Trigger**
+
+
 
 **Partial Activation**
 
