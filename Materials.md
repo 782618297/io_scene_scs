@@ -19,7 +19,7 @@ SCS Material are created on the base of shader presets. When user is creating an
 
   [[images/SCS_Material_Specials_-_Shader_Preset.png]]
 
-  The “SCS Materials” palette features the list of Shader Presets, where you can choose from materials with its own predefined values and change some of them to your liking. Shader Presets can be found as a collapsible list loaded from the Shader Presets Library file (see the chapter “Path Settings” in [[Global Settings]]).
+  The “SCS Materials” palette features the list of Shader Presets, where you can choose from materials with its own predefined values and change some of them to your liking. Moreover each shader preset now also features flavors, which are common extensions to many shaders. Flavors are changing behaviour of shader it's full effect name and in some cases adding or removing some material attributes or textures. Some flavors may not change mesh visually as they are used for different purposes. For example "shadow" flavor will tell shader to use this material also as shadow caster and thus there is nothing that should visually change on the mesh.
 
 ### Imported Shader
 
