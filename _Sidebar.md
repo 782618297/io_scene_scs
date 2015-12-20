@@ -20,7 +20,7 @@
  * [[Materials]]
  * [[SCS Tools in Shelf]]
     * [[Lamp Tools]]
-    * [[Wrap Tool]]
+    * [[Wrap & Stats Tool]]
  * [[Export Panel]]
 * Custom Menu Entries
  * [[Import]]
