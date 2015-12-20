@@ -51,22 +51,18 @@ This section provides an interface for specifying texture images for different s
 Each texture features:
 * **Texture**
   
-  Setting this property will open file browser where you will be able to select image (only *.tga image file format is officially supported) for this texture. After selecting, the image will be automatically applied to material.
+  Property defining path to texture or texture object file (TOBJ - pointers to texture images). Using map icon on the side of this property will open file browser where you will be able to select image or any TOBJ for using it as texture. After selecting, the image will be automatically applied to material.
 
-  > NOTE: using image out of SCS project directory (see [[Global Settings#path-settings]]) and it's subdirectories may cause errors and warnings on export!
+  > NOTE: Usage of texture which is not from SCS project directory (see [[Global Settings#path-settings]]) and it's sub-directories may cause errors and warnings on export!
 
-  Each texture also features extra row of controls for TOBJ file and it's settings. TOBJ files are pointers to texture images and are by default created upon export if they don't exist yet. However create button ( [[images/SCS_Material_Specials_-_Create_TOBJ_Btn.png]] ) will appear if TOBJ file doesn't exist yet and pressing it will create TOBJ file for this texture with default settings. In case this texture already has TOBJ file there will be only reload button ( [[images/SCS_Material_Specials_-_Reload_TOBJ_Btn.png]] ) with which you can load currently saved settings of this TOBJ. Sometimes reload button may appear in red color which indicates that current settings are outdated and you should press reload button to reload them. As soon as TOBJ file exist you will also have access to change any value in settings itself. Changing any of the setting in settings list will rewrite TOBJ file with updated values right away.
+  Each texture also features extra row of controls for TOBJ file and it's settings. TOBJ's are by default created upon export if they don't exist yet. However create button ( [[images/SCS_Material_Specials_-_Create_TOBJ_Btn.png]] ) will appear if TOBJ file doesn't exist yet and pressing it will create TOBJ file for this texture with default settings. In case this texture already has TOBJ file there will be only reload button ( [[images/SCS_Material_Specials_-_Reload_TOBJ_Btn.png]] ) with which you can load currently saved settings of this TOBJ. Sometimes reload button may appear in red color which indicates that current settings are outdated and you should press reload button to reload them. As soon as TOBJ file exist you will also have access to change any value in settings itself. Changing any of the setting in settings list will rewrite TOBJ file with updated values right away.
 
- _**Settings**_ of TOBJ file are:
-    * _**U Repeat**_ - repeat texture in U direction.
-    * _**V Repeat**_ - repeat texture in V direction.
-    * _**TS Normal**_  - tangent space normal for the texture.
-    * _**No MIP Maps**_ - don't use MIP Maps for the texture.
-    * _**No Compress**_ - don't use compression on texture.
+ ***Settings*** of TOBJ file are:
+    * ***U Repeat*** - repeat texture in U direction.
+    * ***V Repeat*** - repeat texture in V direction.
+    * ***TS Normal***  - tangent space normal for the texture.
 
 
 * **Mapping**
 
   This property specifies which UV layer will be used for this texture. For some textures you may need to specify more then one UV layer, depends on which Shader Preset is used.
-  
-  > NOTE: if more UV layers are needed only first one is used in Blender 3D viewport but all of them are used on export.`
