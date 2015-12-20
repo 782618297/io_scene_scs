@@ -198,9 +198,11 @@ Property giving possibility to define custom color type in the case "Road Size" 
 
 **Assigned Node**
 
-
+Property for binding map points to control nodes. This property should be set on map point, which should be used as entry/exit point for GPS navigation to this prefab.
 
 **Destination Nodes**
+
+
 
 ## Trigger Point
 
