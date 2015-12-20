@@ -151,12 +151,56 @@ Property binding control node that should use "Boundary" setting from this navig
 
 **Connect/Disconect Navigation Points**
 
-Operator for connecting/disconnecting two navigation points into a curve for AI traffic paths (curves will be visible in 3D viewport once this operator is used). In order to use this operator two navigation points have to be selected. Moreover order of selection will tell in which direction curve will be directed.
+Operator for connecting/disconnecting two navigation points into a curve for AI traffic paths. In order to use this operator two navigation points have to be selected. Moreover order of selection will tell in which direction curve will be directed.
 
 ## Map Point
 
+Map Point locators are used for visualizing prefab on world map and GPS navigation. To be properly visualized map points have to be properly connected, meaning cross prefabs will future connections from node to node, but company prefabs will future only "Polygon" visualization.
+
+Proper connections have to be done depending on selected "Road Size":
+
+1. Polygon - in this case map points have to be connected in closed quads (useful for visualizing buildings on prefabs).
+2. any other option - in this case map points have to lead from one control node to another, the same principle as by Navigation Point locators.
+
 [[/images/SCS_Tools_Locators_Prefab_MP.png]]
 
+**Road Over**
+
+Property marking this map point to be drawn after all the map points without this flag.
+
+**No Outline**
+
+Property marking no outline drawing. This might be useful for buildings drawing.
+
+**No Arrow**
+
+Property marking no drawing for "green" pointing arrow on GPS navigation. This is useful in the case prefabs are using more that 2 control nodes and paths for navigation are still clear.
+
+**Prefab Exit**
+
+Property marking this map point as prefab exit stops GPS navigation to be visualized further. This can be used in the case of company dock, as usually we don't need extra navigation inside that company dock.
+
+**Road Size**
+
+Property defining type of the road this map point should visualize. In the case of "Polygon" this map point will be used for visualizing polygons instead of road and has to be connected with 3 others into a quad. Moreover using "Polygon" option will give user option to select "Custom Color" for visualization of polygon.
+
+**Road Offset**
+
+Property defining centre offset between road lanes.
+
+**Custom Color**
+
+Property giving possibility to define custom color type in the case "Road Size" of this map point is set to "Polygon". There are 3 different custom colors each for it's own purpose:
+
+1. Light - used for accessible prefab areas
+2. Dark - used for buildings
+3. Green - used for grass and inaccessible prefab areas
+
+**Assigned Node**
+
+
+
+**Destination Nodes**
 
 ## Trigger Point
 
