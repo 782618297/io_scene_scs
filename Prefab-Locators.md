@@ -88,11 +88,11 @@ Property defining semaphore type. In most cases "(use profile)" should be in use
 
 **Intervals/Distances [G,O,R,O]**
 
-Properties defining intervals/distances for each state of traffic semaphore. Enabled only if you don't use "(use profile)" type of traffic semaphore.
+Properties defining intervals/distances for each state of traffic semaphore. Enabled only if type of traffic semaphore is not "(use profile)".
 
 **Cycle Delay**
 
-Property defining delay for which each semaphore cycle will be delayed before starting again. Enabled only if you don't use "(use profile)" type of traffic semaphore.
+Property defining delay for which each semaphore cycle will be delayed before starting again. Enabled only if type of traffic semaphore is not "(use profile)".
 
 
 ## Navigation Point
@@ -149,6 +149,9 @@ Property defining input/output AI traffic lanes for selected "Boundary Node".
 
 Property binding control node that should use "Boundary" setting from this navigation point. Moreover this property is used only if "Boundary" of this navigation point will be set some input/output lane, otherwise value of this property doesn't matter.
 
+**Connect/Disconect Navigation Points**
+
+Operator for connecting/disconnecting two navigation points into a curve for AI traffic paths (curves will be visible in 3D viewport once this operator is used). In order to use this operator two navigation points have to be selected. Moreover order of selection will tell in which direction curve will be directed.
 
 ## Map Point
 
