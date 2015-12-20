@@ -1,6 +1,6 @@
 SCS Blender Tools uses its own Material settings, so every Material in Blender contains a palette called “SCS Materials”. It is essential to use settings here exclusively to set up any available Material properties. If you'll be changing the Material's settings in Blender's standard palettes, the appearance of the Material will change in 3D View, but the SCS material settings will not change and exported material may look very different when viewed in SCS Game Engine.
 
-### Lamps and 3D View setup
+## Lamps and 3D View setup
 
 To get closest result to the one in SCS Game Engine you should use one "Sun" lamp with settings shown in the image below. 
 
@@ -11,17 +11,17 @@ Additionally you have to switch shading in the 3D view properties to GLSL and ti
 [[images/SCS_Material_Specials_-_3D_View_Setup.png]]
 
 
-### Shader Types
+## Shader Usage
 
-The settings for SCS Material can be created from one of two types:
+SCS Material are created on the base of shader presets. When user is creating and using SCS Materials he can use any shader preset found in the list and switch/edit material flavors, attributes and textures. However second type of shader usage is imported shader, which is exclusively created only on import when model is using material effect that can not be found inside shader presets.
 
-* **Shader Preset**
+### Shader Preset
 
   [[images/SCS_Material_Specials_-_Shader_Preset.png]]
 
-  The “SCS Materials” palette features the list of Shader Presets, where you can choose from materials with its own predefined values and change some of them to your liking. Shader Presets can be found as a collapsible list, which is loaded from the Shader Presets Library file (see the chapter “Path Settings” in [[Global Settings]]).
+  The “SCS Materials” palette features the list of Shader Presets, where you can choose from materials with its own predefined values and change some of them to your liking. Shader Presets can be found as a collapsible list loaded from the Shader Presets Library file (see the chapter “Path Settings” in [[Global Settings]]).
 
-* **Imported Shader**
+### Imported Shader
 
   [[images/SCS_Material_Specials_-_Imported_Shader.png]]
 
@@ -30,7 +30,7 @@ The settings for SCS Material can be created from one of two types:
   Additionally there is "Mappings" field inside "Textures" for this type of shader. "tex_coord_X" entries specify which UV layer will be exported for this alias.
 
 
-### Properties and usage
+## Properties and usage
 
 Properties in material are shader type dependent. So each type of shader may have different attributes and textures. Additionally there is "WT" button for some of the properties which can be written through all of the looks, for more information see the section [[Look System#write-through]]
 
