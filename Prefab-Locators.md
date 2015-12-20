@@ -48,7 +48,7 @@ Property defining sign id which shall be used in the game.
 
 ## Spawn Point
 
-Spawn point locator defines point of different predefined players actions.
+Spawn point locator defines points of different predefined actions or an origin point for a result of an action.
 
 Example usage for company dock for Euro Truck Simulator 2 is creating at least two spawn points:
 
@@ -159,7 +159,7 @@ Map Point locators are used for visualizing prefab on world map and GPS navigati
 
 Proper connections have to be done depending on selected "Road Size":
 
-1. Polygon - in this case map points have to be connected in closed quads (useful for visualizing buildings on prefabs).
+1. Polygon - in this case map points have to be connected in closed quads (useful for visualizing buildings on prefabs);
 2. any other option - in this case map points have to lead from one control node to another, the same principle as by Navigation Point locators.
 
 [[/images/SCS_Tools_Locators_Prefab_MP.png]]
@@ -192,18 +192,43 @@ Property defining centre offset between road lanes.
 
 Property giving possibility to define custom color type in the case "Road Size" of this map point is set to "Polygon". There are 3 different custom colors each for it's own purpose:
 
-1. Light - used for accessible prefab areas
-2. Dark - used for buildings
-3. Green - used for grass and inaccessible prefab areas
+1. Light - used for accessible prefab areas;
+2. Dark - used for buildings;
+3. Green - used for grass and inaccessible prefab areas.
 
 **Assigned Node**
 
-Property for binding map points to control nodes. This property should be set on map point, which should be used as entry/exit point for GPS navigation to this prefab.
+Property for binding map points to control nodes. Has to be set on map points which should be used as entry/exit GPS navigation points to/from this prefab.
 
 **Destination Nodes**
 
+Property defining to which control node GPS can navigate from this map point (some sort of direction giving). This should be used only in the case that any neighbour of this map point has more that 2 neighbours and current map point is not having any "Assigned Node".
+
+**Connect/Disconnect Map Points**
+
+Operator for connecting/disconnecting two map points for connection lines used in world map and GPS navigation. In order to use this operator two map points have to be selected. Selection order this time doesn't matter as connections between map points are undirected.
 
 
 ## Trigger Point
 
+Trigger points are intended to mark area on the prefab where action will be able to take place. Actions are taken from Trigger Action Library and are triggered when player enters area marked with trigger point polygons or sphere alone.
+
+Example of trigger points usage is marking rest areas on prefabs for Euro Truck Simulator 2 with a polygon.
+
 [[/images/SCS_Tools_Locators_Prefab_TP.png]]
+
+**Action**
+
+**Range**
+
+**Reset Delay**
+
+**Sphere Trigger**
+
+**Partial Activation**
+
+**One Time Activation**
+
+**Manual Activation**
+
+**Connect/Disconnect Trigger Points**
