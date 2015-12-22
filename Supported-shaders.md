@@ -2,7 +2,7 @@ With version 1.0 Blender Tools are presenting flavors in materials. Flavors are 
 
 Because of flavors, shader preset list now includes only base shader types, which can be later altered with switching different flavors on and off. That's why this page now resembles base shader types and flavors description.
 
-### Base Shader Types
+## Base Shader Types
 
 1. [[Shader type: building.add.env.day]]
 2. [[Shader type: building.day]]
@@ -49,7 +49,7 @@ Because of flavors, shader preset list now includes only base shader types, whic
 42. [[Shader type: window.day]]
 43. [[Shader type: window.night]]
 
-### Flavors
+## Flavors
 
 1. [[Shader flavor: a]]
 2. [[Shader flavor: add.env]]
