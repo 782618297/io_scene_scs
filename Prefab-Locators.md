@@ -12,7 +12,7 @@ For proper prefab creation this requirements have to be meet:
 1. Prefab must have from 2 to 6 control nodes;
 2. Each control node has to have unique index, defined by "Node Index" property;
 3. When creating more than 2 nodes, they have to be placed clockwise starting with index 0;
-4. If prefab should be extended with in game generated terrain, then control node has to have terrain points assigned on it's left side.
+4. If prefab should be extended with in game generated terrain, then control node has to have terrain points assigned on it's ***right*** side.
 
 [[/images/SCS_Tools_Locators_Prefab_CN.png]]
 
@@ -35,7 +35,7 @@ Are operators for previewing currently assigned terrain points of the control no
 
 ## Sign
 
-Sign locator is exactly what names says: locator for placing signs on prefabs. With assigning "Sign Model" property from Sign Library it is decided which sign will appear on the place of locator in the game.
+Sign locator is exactly what names says: locator for placing signs or any kind of static object (lamps, trash bins, etc.) on prefabs. With assigning "Sign Model" property from Sign Library it is decided which sign will appear on the place of locator in the game.
 
 > NOTE: If you are not able to assign any sign to "Sign Model" property, make sure your Sign Library path is properly set.
 
@@ -117,7 +117,7 @@ Property defining extra limited displacement for AI cars.
 
 **Allowed Vehicles**
 
-Property defining type of vehicles that are able to enter AI traffic curves starting at this navigation point.
+Property defining type of vehicles that are suitable to enter AI traffic curves starting at this navigation point. AI cars will try to go into most suitable curve, but if there will be none, they can also use any other even if they are not allowed to.
 
 **Blinkers [Left Blinker|No Blinker|No Blinker (forced)|Right Blinker]**
 
@@ -135,7 +135,9 @@ This property binds [Traffic Semaphore](Prefab-Locators#traffic-semaphore) to AI
 
 **Traffic Rule**
 
-Property defining additional rule for AI cars like speed limits. This property can be set to any rule from Traffic Rules Library.
+Property defining additional rule for AI cars like city areas, motorways or even stop lines. This property can be set to any rule from Traffic Rules Library.
+
+> NOTE: Speed limit rules should be avoided in this case, because speed limits are now regulated by signs itself.
 
 > NOTE: If you want to assign rule and list turns out empty, make sure your Traffic Rules Library path is properly set.
 
