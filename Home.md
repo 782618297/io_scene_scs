@@ -32,7 +32,7 @@ For the creation of mods you will need:
 3. **File archiver and browser** - for packing and copying files created with Asset Conversion Tools to the "mod" folder.
 
 
-## Content
+## Wiki Content
 
 * [[Home]]
 * Intro
