@@ -5,6 +5,8 @@ For those who are not familiar with GitHub we prepared this page with download s
 
 [**1.0-release (100.8 MiB)**](https://github.com/SCSSoftware/BlenderTools/archive/v1.0.zip) - [_release info_](https://github.com/SCSSoftware/BlenderTools/releases/tag/v1.0)
 
+> NOTE: **Don't forget to download and use latest [[Conversion Tools]], after upgrading to new SCS Blender Tools version!**
+
 
 ## Other Links
 
