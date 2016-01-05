@@ -1,1 +1,3 @@
-Same as [[shader type: dif.spec]] with modified specular light. It's mostly used for roads and asphalts, due distinct feel of specularity and diffuse properties of such surfaces.
+Same as [[shader type: dif.spec]] with modified specular light. 
+
+It's mostly used for roads and asphalts, due distinct feel of specularity and diffuse properties of such surfaces.
