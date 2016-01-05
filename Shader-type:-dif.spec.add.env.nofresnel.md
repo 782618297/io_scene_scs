@@ -1,0 +1,1 @@
+Same as [[shader type: dif.spec.add.env]] without fresnel attribute and computation, therefore is slightly cheaper to compute.
