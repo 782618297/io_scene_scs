@@ -1,0 +1,1 @@
+Same as [[shader type: dif.spec.oclu]] with extra environment reflection component.
