@@ -1,7 +1,7 @@
 Basic shader with diffuse and specular light featuring one texture. Alpha of the texture represents intensity of specular light.
 
 
-### Extensions
+### Useful Flavor Combinations
 
 1. **"dif.spec.a"** - making transparent areas where texture has alpha with value 0.
 2. **"dif.spec.over"** - texture alpha channel also represent transparency blending of material, where alpha with value 0 means completely transparent and alpha with value 255 means non transparent.
