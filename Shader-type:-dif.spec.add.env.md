@@ -1,4 +1,4 @@
-Same as [[shader type: dif.spec]] with extra texture featuring reflection used for vehicles.
+Same as [[shader type: dif.spec]]  with additional reflection pass and texture.
 
 
 ### Useful Flavor Combinations
