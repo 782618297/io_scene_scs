@@ -1,6 +1,6 @@
 With version 1.0 Blender Tools are presenting flavors in materials. Flavors are used for common passes in more shaders. Depending on each shader different flavors can be enabled on it.
 
-Because of flavors, shader preset list now includes only base shader types, which can be later altered with switching different flavors on and off. That's why this page now resembles base shader types and flavors description.
+Shader preset list now includes only base shader types, which can be later altered with switching different flavors on and off. That's why this page now resembles base shader types and flavors description.
 
 ## Base Shader Types
 
