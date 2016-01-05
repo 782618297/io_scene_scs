@@ -1,0 +1,1 @@
+Same shader as [[shader type: dif.spec.weight]] with additional environment reflection.
