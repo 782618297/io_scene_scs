@@ -1,0 +1,1 @@
+Same as [[shader type: dif.spec.mult.dif.spec]] with additional environment reflection.
