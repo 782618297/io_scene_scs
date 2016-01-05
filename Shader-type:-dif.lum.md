@@ -2,7 +2,7 @@ Same as [[shader type: dif]] with additional linear interpolation calculation be
 
 Example usage of this shader are dashboard and gps surfaces in truck inside Euro Truck Simulator 2 game.
 
-### Extensions
+### Useful Flavor Combinations
 
 1. **"dif.lum.decal.over"** -  decal part of shader name donates ability to use lightning model from the surfaces lying behind geometries using this shader and over part of shader name represent transparency blending of material, where alpha with value 0 means completely transparent and alpha with value 255 means non transparent. Example usage of this shader are lit icons on buttons in truck cabin which shall be: 
    1. lit to reflect effect of back light,
