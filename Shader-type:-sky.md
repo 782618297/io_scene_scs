@@ -1,0 +1,1 @@
+Special shader used only for skyboxes. Basically this shader combines three textures with blending defined by Layer Blend factor.
