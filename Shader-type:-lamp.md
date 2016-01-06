@@ -2,6 +2,6 @@ Lamp material used for vehicle lights, auxiliary lights and traffic lights. With
 
 More about lamps in [[Lamp system]].
 
-### Extensions
+### Useful Flavor Combinations
 
-1. **"lamp.add.env"** - with extra texture featuring reflection used for vehicles.
+1. **"lamp.add.env"** - with additional reflection pass and texture.
