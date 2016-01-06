@@ -2,12 +2,13 @@ Truckpaint shader as the name suggests is the shader for truck color paint. Shad
 
 Additionally "aux" parameters inside material are used only for preview purposes. Their usage in 3D view is dependent on truckpaint mode:
 
-1. "Color mask" mode (when "colormask" flavor is used) where paintjob texture RGB channels are used to color mask base truckpaint output. Auxiliary attributes are used in 3D viewport as follows:
+1. "Default" mode (when neither "colormask" or "airbrush" flavor is used) with no additional color settings. Paintjob texture is there only for export porpuses so that proper UV mapping for paintjob can be set.
+2. "Color mask" mode (when "colormask" flavor is used) where paintjob texture RGB channels are used to color mask base truckpaint output. Auxiliary attributes are used in 3D viewport as follows:
     * Paintjob R Color -> color masked with B channel of paintjob texture,
     * Paintjob G Color -> color masked with G channel of paintjob texture,
     * Paintjob B Color -> color masked with R channel of paintjob texture,
     * Paintjob Base Color -> base paintjob color.
-2. "Airbrush" mode (when "airbrush" extension is used) uses paintjob texture as airbrush mask on base truckpaint output. Auxiliary attributes are used in 3D viewport as follows:
+3. "Airbrush" mode (when "airbrush" flavor is used) uses paintjob texture as airbrush mask on base truckpaint output. Auxiliary attributes are used in 3D viewport as follows:
     * Paintjob Base Color -> base paintjob color.
 
 > NOTE: There are two more modes "flipflake" and "airbrush.flipflake" which are not yet implemented inside 3D viewport but they can be defined inside definition files anyway, because no additional data have to be exported for them.
