@@ -1,5 +1,8 @@
 Truckpaint shader as the name suggests is the shader for truck color paint. Shader features combination of base and paintjob textures. The final result of this shader is dependent on configuration of the truck paint inside definition files as the shader supports different output types. If the truck is driven by the player, shader is configured by "paint job" definition file of the truck, otherwise truck paint is configured from AI truck colors palette.
 
+
+### Paintjob Modes
+
 Additionally "aux" parameters inside material are used only for preview purposes. Their usage in 3D view is dependent on truckpaint mode:
 
 1. "Default" mode (when neither "colormask" or "airbrush" flavor is used) with no additional color settings. Paintjob texture is there only for export porpuses so that proper UV mapping for paintjob can be set.
