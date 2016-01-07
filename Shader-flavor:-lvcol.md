@@ -1,0 +1,1 @@
+Flavor enabling luminance multiplication with vertex color used on luminance shaders: [shader type: dif.lum]] or [[shader type: dif.lum.spec]].
