@@ -64,7 +64,7 @@ Shader preset list now includes only base shader types, which can be later alter
 11. [[Shader flavor: linv]]
 12. [[Shader flavor: lvcol]]
 13. [[Shader flavor: tsnmap & tsnmap16 & tsnmapuv & tsnmapuv16]]
-14. [[Shader flavor: nocoll]]
+14. [[Shader flavor: nocull]]
 15. [[Shader flavor: paint]]
 16. [[Shader flavor: shadow]]
 17. [[Shader flavor: tg0]]
