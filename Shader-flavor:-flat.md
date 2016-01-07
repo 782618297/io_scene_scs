@@ -1,0 +1,1 @@
+Flavor removing global specular and diffuse lighting calculation on shader using this flavor, which will result in flat shaded surfaces and most probably in better performance.
