@@ -1,0 +1,1 @@
+Special flavor used only on [[shader type: truckpaint]]. It tells shader to use second UV mapping for paintjob texture.
