@@ -1,0 +1,1 @@
+Flavor enables alpha test on shader, meaning surfaces will be transparent where opacity value is greater than 0. Opacity is usually donated by base texture alpha channel.
