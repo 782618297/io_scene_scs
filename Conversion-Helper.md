@@ -1,0 +1,1 @@
+Conversion helper panel features tools for automated assets conversion and mod packing.
