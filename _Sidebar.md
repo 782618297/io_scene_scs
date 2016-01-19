@@ -23,6 +23,7 @@
     * [[Lamp Tools]]
     * [[Wrap & Stats Tools]]
  * [[Export Panel]]
+ * [[Conversion Helper]]
 * Custom Menu Entries
  * [[Import]]
  * [[Export]]
