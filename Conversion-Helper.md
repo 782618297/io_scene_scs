@@ -1,1 +1,1 @@
-Conversion helper panel features tools for automated assets conversion and mod packing. Panel with conversion helper can be found under [[Export Panel]] located within Scene tab.
+Conversion helper panel features tools for automated assets conversion and mod packing. Panel with conversion helper can be found below [[Export Panel]] located within Scene tab.
