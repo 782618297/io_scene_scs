@@ -32,9 +32,13 @@ This section is featuring properties and operators for packing a mod for SCS gam
 
 First two options are specifying destination and name:
 * **Mod Folder Path** - property holding folder where mod should be placed. On the side of this property you have operator ([[images/SCS_Tools_Conv_Hlpr_Find_Folder]]) for auto retrieve of the mod paths for Euro Truck Simulator 2 or American Truck Simulator.
-* ***Mod Name*** - property holding name of the mod ZIP file.
+* **Mod Name** - property holding name of the mod ZIP file.
 
 Third row is featuring switching of automated actions that should be done before mod will be packed:
-* **Auto Clean*** - enable this switch if you want to make clean conversion without any leftovers from previous packing or converting.
+* **Auto Clean** - enable this switch if you want to make clean conversion without any leftovers from previous packing or converting.
 * **Auto Export** - enable this switch if you want to run automated Blender Tools export. Scope of the content which will be auto exported is defined with Export Scope property in [[Export Panel]].
 * **Auto Convert** - enable this switch if you want for your resources to be converted before packing. This automated conversion will convert SCS Project Base Path as well as any defined custom paths.
+
+Last switch **"No Compression | Deflated | BZIP2"** defines type of the compression you want to use for your mod package.
+
+As last there is **PACK CONVERTED DATA** operator which firstly does any selected automated actions and on the end packs conversion tools result into the ZIP package and copies it to the selected mod destination.
