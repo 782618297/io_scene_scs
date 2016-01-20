@@ -10,6 +10,7 @@ Property holding path to directory where you extracted [[Conversion Tools]]. Sel
 ### Direct Conversion Tools Operators
 
 **CLEAN RSRC** - operator which will immediately clean content that you converted before or is left there from some other time. In general this makes sure your mod won't have any unused resources (leftover textures, old materials) in the converted result.
+
 **CONVERT CURRENT SCS PROJECT** - operator which will only convert resources in your currently set SCS Project Base Path. Use this operator if you want to pack your mod by hand.
 
 ### Custom Paths Usage
@@ -22,7 +23,7 @@ On the side of the list you can find operators for managing your custom paths:
 * **[[images/SCS_Tools_Conv_Hlpr_Cstm_Path_Up]]** - moves up currently selected custom path in the list. Ordering in the list doesn't have influence on converted result. It is only there so you can order paths however you like.
 * **[[images/SCS_Tools_Conv_Hlpr_Cstm_Path_Down]]** - moves down currently selected custom path in the list. Ordering in the list doesn't have influence on converted result. It is only there so you can order paths however you like.
 
-Under the custom paths list you will also find operator **CONVERT CUSTOM PATHS*** operator which will only convert resources from the custom paths specified in custom paths list. Use this operator if you want to pack your mod later or by hand.
+Under the custom paths list you will also find operator **CONVERT CUSTOM PATHS** operator which will only convert resources from the custom paths specified in custom paths list. Use this operator if you want to pack your mod later or by hand.
 
 
 ### Mod Packing
