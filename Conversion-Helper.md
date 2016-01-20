@@ -1,5 +1,7 @@
 Conversion helper panel features tools for automated files conversion and mod packing. Panel with conversion helper can be found below [[Export Panel]] located within Scene tab.
 
+> NOTE: Before using this helper make sure you downloaded latest [[Conversion Tools]] for the game you want to create content for.
+
 [[images/SCS_Tools_Conv_Hlpr.png]]
 
 
