@@ -4,6 +4,7 @@
  * [[Installation]]
  * [[Terminology and Basics]]
  * [[Conversion Tools]]
+ * [[Intended Workflow]]
 * [[Download]]
 *  Custom Panels and Usage
  * [[Global Settings]]
