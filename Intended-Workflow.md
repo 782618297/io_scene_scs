@@ -1,0 +1,1 @@
+This page presents intended work flow you shall use when creating any mod for SCS games. Work flow is presented in few images each of them presenting different cases you might face while creating your mod.
