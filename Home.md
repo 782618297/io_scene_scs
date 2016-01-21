@@ -7,7 +7,8 @@ Here you will find complete documentation about SCS Blender Tools. The whole doc
 * [[Installation]]
 * [[Terminology and Basics]]
 * [[Conversion Tools]]
-* [[Global Settings]].
+* [[Global Settings]]
+* [[Intended Workflow]].
 
 
 ## Before you start
@@ -37,6 +38,7 @@ For the creation of mods you will need:
  * [[Installation]]
  * [[Terminology and Basics]]
  * [[Conversion Tools]]
+ * [[Intended Workflow]]
 * [[Download]]
 *  Custom Panels and Usage
  * [[Global Settings]]
@@ -56,6 +58,7 @@ For the creation of mods you will need:
     * [[Lamp Tools]]
     * [[Wrap & Stats Tools]]
  * [[Export Panel]]
+ * [[Conversion Helper]]
 * Custom Menu Entries
  * [[Import]]
  * [[Export]]
