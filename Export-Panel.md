@@ -11,7 +11,7 @@ Exports only selected objects, while there are certain logical rules for decidin
 **Preview Selection** - shows all the objects that will be exported. This is very good way, how to be sure about exported content. It will show always only geometries and locators, that are going to be exported. Selection previewing is extra mode, where you can use ***Numpad*** keys for view manipulation similar way like Blender standardly does – ***4*** and ***6*** keys turn the view left and right, ***8*** and ***2*** keys up and down and ***+*** and ***-*** will zoom in and out. If you press ***Enter*** the export begins and with ***Esc*** key you can cancel the export and get back to the previous selection state.
 
 
-### Scene
+### Active Scene
 
 Exports all properly set Game Objects in current scene. 
 > NOTE: You can specify in each Root Object whether its content has to be exported or not using “Export Inclusion” switch.
