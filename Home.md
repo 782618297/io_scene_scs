@@ -7,8 +7,8 @@ Here you will find complete documentation about SCS Blender Tools. The whole doc
 * [[Installation]]
 * [[Terminology and Basics]]
 * [[Conversion Tools]]
+* [[Intended Workflow]]
 * [[Global Settings]]
-* [[Intended Workflow]].
 
 
 ## Before you start
