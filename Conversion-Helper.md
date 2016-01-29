@@ -1,6 +1,6 @@
 Conversion helper panel features tools for automated files conversion and mod packing. Panel with conversion helper can be found below [[Export Panel]] located within Scene tab.
 
-However before you use [[Conversion Helper]] you should download latest [[Conversion Tools]] for the game you want to create mod for. Also make sure you have checked [[Intended Workflow]] images.
+However before you use Conversion Helper you should download latest [[Conversion Tools]] for the game you want to create mod for. Also make sure you have checked [[Intended Workflow]] images.
 
 [[images/SCS_Tools_Conv_Hlpr.png]]
 
@@ -12,7 +12,7 @@ However before you use [[Conversion Helper]] you should download latest [[Conver
 
 ### Custom Paths Usage
 
-Custom Paths are holding list property for multiple custom paths you want to convert at the same time. Use this custom paths if you want to merge resources from 2 or more different mods of yours.
+Custom Paths are holding list property for multiple custom paths you want to convert at the same time. Use this custom paths if you want to merge resources from 2 or more different mods of yours. Example usage is shown in [[Intended-Workflow#usual mod combined with dependency mod using custom paths]]
 
 On the side of the list you can find operators for managing your custom paths:
 * **[[images/SCS_Tools_Conv_Hlpr_Add_Cstm_Path.png]]** - opens file selector where you should browse for new custom path you want to use.
