@@ -172,5 +172,7 @@ Sets level of logging inside Blender console. Recommended level for normal usage
 Sets place of global settings storage:
 
 1. ***From Common Config File*** - will save global settings into one same config.txt file, thus this option will give you same settings for all Blender files you will be working on (global settings per machine).
+  
+  > NOTE: Altered items are written to the settings file (config.txt) immediately, so the next time you start Blender all the settings will be preserved, even if application experience crash. If you want to reset settings to default navigate to installed Blender Tools in file browser, delete file "io_scs_tools/config.txt" and restart Blender.
 2. ***From Blend File*** - will save global settings directly into blend file, giving you opportunity for each saved Blender file to have it's own settings (global settings per blend file).
 
