@@ -160,7 +160,7 @@ Turns on and off displaying of Preview models for Locators.
 
 ## Uncategorised Global Settings
 
-[[images/SCS_Tools_Globals_Common.png]]
+[[images/SCS_Tools_Globals_Uncategorised.png]]
 
 ### Log Level
 
