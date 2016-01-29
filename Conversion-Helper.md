@@ -36,6 +36,8 @@ Third row is featuring switching of automated actions that should be done before
 * **Auto Export** - enable this switch if you want to run automated Blender Tools export. Scope of the content which will be auto exported is defined with Export Scope property in [[Export Panel]].
 * **Auto Convert** - enable this switch if you want for your resources to be converted before packing. This automated conversion will convert SCS Project Base Path as well as any defined custom paths.
 
-Last switch **"No Compression | Deflated | BZIP2"** defines type of the compression you want to use for your mod package.
+Last switch **"No Archive | No Compression | Deflated | BZIP2"** defines type of the compression you want to use for your mod package.
 
-As last there is **PACK CONVERTED DATA** operator which firstly does any selected automated actions and on the end packs conversion tools result into the ZIP package and copies it to the selected mod destination.
+Final magic operator on complete bottom of the panel is **PACK CONVERTED DATA**. This operator which firstly does any selected automated actions and on the end packs conversion tools result into the ZIP package and copies it to the selected mod destination. 
+
+When using ***No Archive*** compression option instead of ZIP package conversion helper creates folder inside selected mod destination and copies result of conversion tools to it. Created folder is named the same as ZIP package by mod name property.
