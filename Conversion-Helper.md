@@ -1,4 +1,4 @@
-Conversion helper panel features tools for automated files conversion and mod packing. Panel with conversion helper can be found below [[Export Panel]] located within Scene tab.
+Conversion helper panel features tools for automated files conversion and mod packing. Panel with conversion helper can be found below [[Export Panel]] located within Scene tab in Blender properties window.
 
 However before you use Conversion Helper you should download latest [[Conversion Tools]] for the game you want to create mod for. Also make sure you have checked [[Intended Workflow]] images.
 
