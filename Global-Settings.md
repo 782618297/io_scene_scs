@@ -1,12 +1,10 @@
-Global Settings hold common settings to whole SCS Blender Tools addon and are defined per-machine not per-blender file like any other properties in Blender.
+Global Settings hold common settings to whole SCS Blender Tools addon and are defined either per-machine or per-blender file, depending on user choice.
 
-> NOTE: Altered items are written to the settings file (config.txt) immediately, so the next time you start Blender all the settings will be preserved, even if application experience crash. If you want to reset settings to default navigate to installed Blender Tools in file browser, delete file "io_scs_tools/config.txt" and restart Blender.
-
-***Global Settings*** sub-palette can be find within ***SCS Tools*** palette in ***Scene*** settings of the Properties window.
+***Global Settings*** sub-palette can be found within ***SCS Tools*** panel in ***Scene*** settings of the Properties window.
 
 [[images/SCS_Tools_Properties_-_icons_01.png]]
 
-There are two sub-palettes: ***Path Settings*** and ***Display Settings***.
+There are two sub-panels (categorizing most of the properties into proper layout) and panel for uncategorised global settings.
 
 [[images/SCS_Tools_Globals_01.png]]
 
@@ -158,3 +156,21 @@ Custom color for Info Texts.
 ### Show Preview Models
 
 Turns on and off displaying of Preview models for Locators.
+
+
+## Uncategorised Global Settings
+
+[[images/SCS_Tools_Globals_Common.png]]
+
+### Log Level
+
+Sets level of logging inside Blender console. Recommended level for normal usage is 2, however when trying to investigate bugs or errors it is useful to use logging up to level 4.
+
+
+### Use Global Settings
+
+Sets place of global settings storage:
+
+1. ***From Common Config File*** - will save global settings into one same config.txt file, thus this option will give you same settings for all Blender files you will be working on (global settings per machine).
+2. ***From Blend File*** - will save global settings directly into blend file, giving you opportunity for each saved Blender file to have it's own settings (global settings per blend file).
+
