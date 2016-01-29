@@ -4,11 +4,6 @@ However before you use [[Conversion Helper]] you should download latest [[Conver
 
 [[images/SCS_Tools_Conv_Hlpr.png]]
 
-
-### Conversion Tools Path
-
-Property holding path to directory where you extracted [[Conversion Tools]]. Select proper conversion tools depending on the game you want to use your content for.
-
 ### Direct Conversion Tools Operators
 
 **CLEAN RSRC** - operator which will immediately clean content that you converted before or is left there from some other time. In general this makes sure your mod won't have any unused resources (leftover textures, old materials) in the converted result.
