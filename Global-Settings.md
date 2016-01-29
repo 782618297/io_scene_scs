@@ -66,6 +66,11 @@ _[“*.txt” file, absolute file path]_
 Shader Presets library filepath. This library has been created specially for SCS Blender Tools and thus it is located in its installation folder. The correct path should be set automatically.
 
 
+### Conversion Tools Path
+
+Property holding path to directory where you extracted [[Conversion Tools]] and is used by operators from [[Conversion Helper]]. Also note that you should select proper conversion tools depending on the game you want to use your content for.
+
+
 ## Display Settings
 
 The “Display Settings” sub-palette brings together visual settings for all the special elements that are part of SCS Blender Tools. You can find here a visual settings for Locators, their Curves, Preview Models and other specific elements, which detail explanation follows in the text below.
