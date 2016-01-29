@@ -18,44 +18,52 @@ Before you start to use the tools, it is necessary to specify where to access da
 [[images/SCS_Tools_Globals_Path_01.png]]
 
 
-**SCS Project Base Path** _[folder, always absolute path]_
+### SCS Project Base Path
+_[folder, always absolute path]_
 
-***This is most important path, which leads to “base” directory of any SCS game. Base directory always has to have specific structure, because of relative texture and definition file addressing.*** So all of the paths of following libraries should continue from this location and should be in relative form. However if you prefer another location for those libraries, you can use it and the path form will be automatically chosen.
+***This is most important path, which leads to “base” root directory of your mod for any SCS game. Base directory always has to have specific structure, because of relative texture and definition file addressing.*** So all of the paths of following libraries should continue from this location and should be in relative form. However if you prefer another location for those libraries, you can use it and the path form will be automatically chosen.
 
 > NOTE: For importing sample models make sure you set SCS Project Base Path to one of the sample base folders inside "data" directory of downloaded SCS Blender Tools package.
 
 > NOTE: You should prefer another location for libraries only if you are using any custom library file.
 
-**Trigger Action Library** _[“*.sii” file, absolute or relative path to 'SCS Project Base Path']_
+### Trigger Action Library
+_[“*.sii” file, absolute or relative path to 'SCS Project Base Path']_
 
 Library of predefined trigger actions. You can assign them to Trigger Prefab Locators which are used in game for triggering various actions (for example sleeping areas).
 
 
-**Sign Library** _[“*.sii” file, absolute or relative path to 'SCS Project Base Path']_
+### Sign Library
+_[“*.sii” file, absolute or relative path to 'SCS Project Base Path']_
 
 Library of predefined traffic Signs. You can assign them to Sign Prefab Locators which are used in game to create traffic signs or any model defined as sign. Most of them are respected by AI cars and lay the traffic rules for player.
 
 
-**Semaphore Library** _[“*.sii” file, absolute or relative path to 'SCS Project Base Path']_
+### Semaphore Library
+_[“*.sii” file, absolute or relative path to 'SCS Project Base Path']_
 
 Library of predefined Traffic Semaphore profiles. You can assign them to Traffic Semaphore Prefab Locators which are used in game to create traffic semaphores. These are respected by AI cars and should be respected by player as well.
 
 
-**Traffic Rules Library** _[“*.sii” file, absolute or relative path to 'SCS Project Base Path']_
+### Traffic Rules Library
+_[“*.sii” file, absolute or relative path to 'SCS Project Base Path']_
 
 Library of predefined Traffic Rules. You can assign them to Navigation Point Prefab Locators which are used in game to create traffic routes. These are used mainly by AI cars.
 
 
-**Hookup Library** _[folder, absolute or relative path to 'SCS Project Base Path']_
+### Hookup Library
+_[folder, absolute or relative path to 'SCS Project Base Path']_
 
 Directory containing predefined Hookup files. You can assign them to Model Locators which are used in game to instance other game models within actual model.
 
-**Mat Substance Library** _[“*.db” file, absolute or relative path to 'SCS Project Base Path']_
+### Mat Substance Library
+_[“*.db” file, absolute or relative path to 'SCS Project Base Path']_
 
 Library of Material Substances, which defines physical behavior of the material. You can assign them to Materials.
 
 
-**Shader Presets Library** _[“*.txt” file, absolute file path]_
+### Shader Presets Library 
+_[“*.txt” file, absolute file path]_
 
 Shader Presets library filepath. This library has been created specially for SCS Blender Tools and thus it is located in its installation folder. The correct path should be set automatically.
 
@@ -67,86 +75,86 @@ The “Display Settings” sub-palette brings together visual settings for all t
 [[images/SCS_Tools_Globals_Display.png]]
 
 
-**Drawing Mode**
+### Drawing Mode
 
 Drawing mode for custom elements (i.e. Locators and Connections). It switches between Normal and X-Ray mode. Normal mode use normal depth testing drawing so all the custom elements are drawn within the scene the same way as the other objects, while the X-Ray mode use X-Ray drawing making all the custom elements visible on top of the other objects.
 
 
-**Display Locators**
+### Display Locators
 
 Turns on and off displaying of custom representation of Locators. This can be useful especially when tunning Navigation curves.
 
 
-**Locator Size**
+### Locator Size
 
 Drawing size of Locators' custom representation.
 
 
-**Locator Empty Object Size**
+### Locator Empty Object Size
 
 Drawing size ratio of selectable Empty objects in Locators. Alter it if you experience difficulties with selecting of Locators.
 
 
-**Prefab Locator Color**
+### Prefab Locator Color
 
 Custom color for Prefab Locators.
 
 
-**Model Locator Color**
+### Model Locator Color
 
 Custom color for Model Locators.
 
 
-**Collider Locator Wire Color**
+### Collider Locator Wire Color
 
 Custom color for Collider Locators' wire frames.
 
 
-**Collider Locator Face Color**
+### Collider Locator Face Color
 
 Custom color for Collider Locators' faces.
 
 
-**Display Connections**
+### Display Connections
 
 Turns on and off displaying of Locators' connections - Curves and Lines.
 
 
-**Optimized Connections Draw**
+### Optimized Connections Draw
 
 Draw connections only when data are updated. Switching this off might give you FPS (frames per second), especially on heavy Prefab scenes.
 
 
-**Curve Segments**
+### Curve Segments
 
 Number of segments for Navigation Curves. It can improve update speed of 3D View.
 
 
-**Navigation Curve Base Color**
+### Navigation Curve Base Color
 
 Custom color for Navigation Curves.
 
 
-**Map Line Base Color**
+### Map Line Base Color
 
 Custom color for Map Lines.
 
 
-**Trigger Line Base Color**
+### Trigger Line Base Color
 
 Custom color for Trigger Lines.
 
 
-**Display Text Info**
+### Display Text Info
 
 Switches displaying of different additional information texts for Locators directly in 3D View. This is very useful when you work on Prefab models. For example, you can display only the Locator Names, or Boundary Lanes or Nodes.
 
 
-**Info Text Color**
+### Info Text Color
 
 Custom color for Info Texts.
 
 
-**Show Preview Models**
+### Show Preview Models
 
 Turns on and off displaying of Preview models for Locators.
