@@ -40,4 +40,4 @@ Last switch **"No Archive | No Compression | Deflated | BZIP2"** defines type of
 
 Final magic operator on complete bottom of the panel is **PACK CONVERTED DATA**. This operator which firstly does any selected automated actions and on the end packs conversion tools result into the ZIP package and copies it to the selected mod destination. 
 
-When using ***No Archive*** compression option instead of ZIP package conversion helper creates folder inside selected mod destination and copies result of conversion tools to it. Created folder is named the same as ZIP package by mod name property.
+When using ***No Archive*** compression option instead of ZIP package conversion helper creates folder inside selected mod destination and copies result of conversion tools to it. Created folder is named the same as ZIP package: by mod name property.
