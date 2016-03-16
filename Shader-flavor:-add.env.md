@@ -1,1 +1,0 @@
-Flavor enabling extra reflection pass on shader. This will add reflection texture and environment factor parameter to shader, which controls type of environmental cube map texture and amount of added environment lighting.

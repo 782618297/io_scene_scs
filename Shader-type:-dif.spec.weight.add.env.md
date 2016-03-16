@@ -1,1 +1,0 @@
-Same shader as [[shader type: dif.spec.weight]] with additional reflection pass and texture.

@@ -1,1 +1,0 @@
-Same as [[shader type: dif.spec]] with extra mask texture which color is mixed with base texture color by factor of alpha from mask texture.

@@ -1,1 +1,0 @@
-Same as [[shader type: dif.spec.oclu]] with additional reflection pass and texture.

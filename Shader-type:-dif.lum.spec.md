@@ -1,1 +1,0 @@
-Similar as [[shader type: dif.lum]] with difference that surface has additional specular map shading as [[shader type: dif.spec]].

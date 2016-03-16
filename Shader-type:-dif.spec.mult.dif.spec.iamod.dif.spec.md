@@ -1,3 +1,0 @@
-Special use shader based on [[shader type: dif.spec.mult.dif.spec]] and is usually used for building walls.
-
-Shader is combining two multiplied opaque textures with third inverse-vertex-alpha (iamod) texture. The third texture should represent decal/dirt/wear layer where texture alpha channel and vertex alpha controls how strong this decal application is. Vertex color alpha with value 0 will apply the most and value 0.5 won't apply third layer at all.

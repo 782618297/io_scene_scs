@@ -1,1 +1,0 @@
-It is night variant of [[shader type: light.tex]], meaning surface with this shader will be visible only during the night. During the day this light map will be switched off.

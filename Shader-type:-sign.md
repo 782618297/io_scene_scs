@@ -1,1 +1,0 @@
-Special case shader used for sign surfaces. Similarly as [[shader type: reflective]] this shader simulates interaction with player's headlights.

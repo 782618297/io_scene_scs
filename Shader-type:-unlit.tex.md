@@ -1,1 +1,0 @@
-Shader which is drawing surfaces after world has been lit, meaning surfaces using this shader will result into direct texture color multiplied by diffuse material parameter without any lighting applied.

@@ -1,1 +1,0 @@
-Presents shadow caster material and it's used on geometry for casting sun shadows.

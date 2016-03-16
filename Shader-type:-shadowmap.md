@@ -1,1 +1,0 @@
-Used for transparent static baked shadows. Color of surfaces is put together from the base texture multiplied with material diffuse. Transparency of shadow map is donated by base texture alpha channel.

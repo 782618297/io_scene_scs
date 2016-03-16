@@ -1,1 +1,0 @@
-Special case void shader. Surfaces with this shader won't be drawn in game, might be useful only for testing purposes.
